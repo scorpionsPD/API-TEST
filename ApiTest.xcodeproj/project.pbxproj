@@ -17,6 +17,8 @@
 		F3616B962216B8F600EDEA50 /* ApiTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3616B952216B8F600EDEA50 /* ApiTestTests.swift */; };
 		F3616BA12216B8F600EDEA50 /* ApiTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3616BA02216B8F600EDEA50 /* ApiTestUITests.swift */; };
 		F3616BB22216BE4B00EDEA50 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3616BB12216BE4B00EDEA50 /* AppConfiguration.swift */; };
+		F3A4F5D1222E84D90029F763 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4F5D0222E84D90029F763 /* MovieDetailsViewController.swift */; };
+		F3A4F5D4222EAA7E0029F763 /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4F5D3222EAA7E0029F763 /* DetailHeaderView.swift */; };
 		F3C26E0F2223F36000923C9E /* DataModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C26E0E2223F36000923C9E /* DataModal.swift */; };
 		F3C26E142223F75B00923C9E /* Networks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C26E132223F75B00923C9E /* Networks.swift */; };
 		F3C26E162223FDE700923C9E /* RequestCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C26E152223FDE600923C9E /* RequestCreator.swift */; };
@@ -58,6 +60,8 @@
 		F3616BA02216B8F600EDEA50 /* ApiTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTestUITests.swift; sourceTree = "<group>"; };
 		F3616BA22216B8F600EDEA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3616BB12216BE4B00EDEA50 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		F3A4F5D0222E84D90029F763 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		F3A4F5D3222EAA7E0029F763 /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
 		F3C26E0E2223F36000923C9E /* DataModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModal.swift; sourceTree = "<group>"; };
 		F3C26E132223F75B00923C9E /* Networks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networks.swift; sourceTree = "<group>"; };
 		F3C26E152223FDE600923C9E /* RequestCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCreator.swift; sourceTree = "<group>"; };
@@ -125,10 +129,12 @@
 			children = (
 				F3D0AED42227E70F007B4ECD /* Constants */,
 				F3153291222586D400B1A290 /* cellClasses */,
+				F3A4F5D2222EAA490029F763 /* CustomViews */,
 				F3616BB02216BDD600EDEA50 /* AppConfiguration */,
 				F3616B802216B8F400EDEA50 /* AppDelegate.swift */,
 				F3C26E122223F63E00923C9E /* Modals */,
 				F3616B822216B8F400EDEA50 /* ViewController.swift */,
+				F3A4F5CF222E84660029F763 /* Controllers */,
 				F3616B842216B8F400EDEA50 /* Main.storyboard */,
 				F3616B872216B8F600EDEA50 /* Assets.xcassets */,
 				F3616B892216B8F600EDEA50 /* LaunchScreen.storyboard */,
@@ -162,6 +168,22 @@
 				F3C26E152223FDE600923C9E /* RequestCreator.swift */,
 			);
 			path = AppConfiguration;
+			sourceTree = "<group>";
+		};
+		F3A4F5CF222E84660029F763 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3A4F5D0222E84D90029F763 /* MovieDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F3A4F5D2222EAA490029F763 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				F3A4F5D3222EAA7E0029F763 /* DetailHeaderView.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		F3C26E122223F63E00923C9E /* Modals */ = {
@@ -319,8 +341,10 @@
 				F3C26E0F2223F36000923C9E /* DataModal.swift in Sources */,
 				F3616B832216B8F400EDEA50 /* ViewController.swift in Sources */,
 				F3C26E142223F75B00923C9E /* Networks.swift in Sources */,
+				F3A4F5D1222E84D90029F763 /* MovieDetailsViewController.swift in Sources */,
 				F3153290222547FB00B1A290 /* UrlList.swift in Sources */,
 				F3153293222586FE00B1A290 /* MovieTableViewCell.swift in Sources */,
+				F3A4F5D4222EAA7E0029F763 /* DetailHeaderView.swift in Sources */,
 				F3616B812216B8F400EDEA50 /* AppDelegate.swift in Sources */,
 				F3D0AEEF22282F6F007B4ECD /* ConfigurationModal.swift in Sources */,
 				F3D0AED62227E72A007B4ECD /* Constants.swift in Sources */,
@@ -503,6 +527,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NGWD85J6N2;
 				INFOPLIST_FILE = ApiTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,6 +547,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NGWD85J6N2;
 				INFOPLIST_FILE = ApiTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -684,6 +710,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NGWD85J6N2;
 				INFOPLIST_FILE = ApiTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -806,6 +833,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NGWD85J6N2;
 				INFOPLIST_FILE = ApiTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

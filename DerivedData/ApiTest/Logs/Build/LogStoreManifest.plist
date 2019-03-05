@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>2AECD2E0-EFED-4031-A72D-26E623103D41</key>
+		<key>0187E30D-12F5-43B5-B0B6-AF9FE270C6C7</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,9 +15,9 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>2AECD2E0-EFED-4031-A72D-26E623103D41.xcactivitylog</string>
+			<string>0187E30D-12F5-43B5-B0B6-AF9FE270C6C7.xcactivitylog</string>
 			<key>highLevelStatus</key>
-			<string>S</string>
+			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
 			<string>ApiTest project</string>
 			<key>schemeIdentifier-schemeName</key>
@@ -27,13 +27,129 @@
 			<key>signature</key>
 			<string>Build ApiTest</string>
 			<key>timeStartedRecording</key>
-			<real>573406074.45882702</real>
+			<real>573490235.78536201</real>
 			<key>timeStoppedRecording</key>
-			<real>573406081.223243</real>
+			<real>573490246.57982302</real>
 			<key>title</key>
 			<string>Build ApiTest</string>
 			<key>uniqueIdentifier</key>
-			<string>2AECD2E0-EFED-4031-A72D-26E623103D41</string>
+			<string>0187E30D-12F5-43B5-B0B6-AF9FE270C6C7</string>
+		</dict>
+		<key>463CC6CD-444A-4A6C-9ED3-D26622FF9438</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>463CC6CD-444A-4A6C-9ED3-D26622FF9438.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ApiTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ApiTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ApiTest</string>
+			<key>timeStartedRecording</key>
+			<real>573492245.82143497</real>
+			<key>timeStoppedRecording</key>
+			<real>573492251.86002803</real>
+			<key>title</key>
+			<string>Build ApiTest</string>
+			<key>uniqueIdentifier</key>
+			<string>463CC6CD-444A-4A6C-9ED3-D26622FF9438</string>
+		</dict>
+		<key>48652FF1-9F87-4A39-8588-5821CE2AA99E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>48652FF1-9F87-4A39-8588-5821CE2AA99E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ApiTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ApiTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ApiTest</string>
+			<key>timeStartedRecording</key>
+			<real>573473533.51702797</real>
+			<key>timeStoppedRecording</key>
+			<real>573473539.81425905</real>
+			<key>title</key>
+			<string>Build ApiTest</string>
+			<key>uniqueIdentifier</key>
+			<string>48652FF1-9F87-4A39-8588-5821CE2AA99E</string>
+		</dict>
+		<key>6C547D89-7039-4074-A487-7264103CEFEF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6C547D89-7039-4074-A487-7264103CEFEF.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ApiTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ApiTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ApiTest</string>
+			<key>timeStartedRecording</key>
+			<real>573490320.36699903</real>
+			<key>timeStoppedRecording</key>
+			<real>573490321.94564795</real>
+			<key>title</key>
+			<string>Build ApiTest</string>
+			<key>uniqueIdentifier</key>
+			<string>6C547D89-7039-4074-A487-7264103CEFEF</string>
+		</dict>
+		<key>FD3E8EDD-9BE1-44FD-A4E2-11EFB6D36CC4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FD3E8EDD-9BE1-44FD-A4E2-11EFB6D36CC4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>ApiTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ApiTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ApiTest</string>
+			<key>timeStartedRecording</key>
+			<real>573492041.24219894</real>
+			<key>timeStoppedRecording</key>
+			<real>573492047.12993896</real>
+			<key>title</key>
+			<string>Build ApiTest</string>
+			<key>uniqueIdentifier</key>
+			<string>FD3E8EDD-9BE1-44FD-A4E2-11EFB6D36CC4</string>
 		</dict>
 	</dict>
 </dict>

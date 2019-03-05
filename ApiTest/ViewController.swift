@@ -22,11 +22,12 @@ class MovieListViewController: UITableViewController {
         
         RequestCreator.shared.callRequestForMoviesList(){(moviesList) in
             self.movieList = moviesList
-            reloadTable(table: self.tableView)
+            reloadScrolableView(table: self.tableView)
             //self.tableView.layoutSubviews()
         }
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
 }
 
 extension MovieListViewController{
@@ -36,12 +37,21 @@ extension MovieListViewController{
         let cell = self.tableView.dequeueReusableCell(withIdentifier: movieListCellIdentifire) as! MovieTableViewCell
         cell.message = movieList?.results[indexPath.row].originalTitle
         NetworkHandler.sharedInstance.downloadImage(from: posterURL(posterPath: (movieList?.results[indexPath.row].posterPath)!), completion: { (imageContent) in
-            cell.mainImageView.image = imageContent
+            DispatchQueue.main.async {
+                 cell.mainImageView.image = imageContent
+            }
         })
         return cell
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return movieList?.results.count ?? 0
     }
-    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if let detailView = self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? MovieDetailsViewController{
+            detailView.selectedMovie = movieList?.results[indexPath.row]
+            self.navigationController?.pushViewController(detailView, animated: true)
+        }
+        
+    }
 }

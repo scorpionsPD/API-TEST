@@ -1,22 +1,22 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "DataModal"
+- "MovieList"
 - "Result"
 provides-nominal:
-- "7ApiTest9DataModalV"
-- "7ApiTest9DataModalV10CodingKeysO"
+- "7ApiTest9MovieListV"
+- "7ApiTest9MovieListV10CodingKeysO"
 - "7ApiTest6ResultV"
 - "7ApiTest6ResultV10CodingKeysO"
 provides-member:
-- ["7ApiTest9DataModalV", ""]
-- ["7ApiTest9DataModalV10CodingKeysO", ""]
+- ["7ApiTest9MovieListV", ""]
+- ["7ApiTest9MovieListV10CodingKeysO", ""]
 - ["7ApiTest6ResultV", ""]
 - ["7ApiTest6ResultV10CodingKeysO", ""]
-- ["7ApiTest9DataModalV", "init"]
-- ["7ApiTest9DataModalV", "init"]
-- ["7ApiTest9DataModalV", "init"]
-- ["7ApiTest9DataModalV", "jsonData"]
-- ["7ApiTest9DataModalV", "json"]
+- ["7ApiTest9MovieListV", "init"]
+- ["7ApiTest9MovieListV", "init"]
+- ["7ApiTest9MovieListV", "init"]
+- ["7ApiTest9MovieListV", "jsonData"]
+- ["7ApiTest9MovieListV", "json"]
 - ["7ApiTest6ResultV", "init"]
 - ["7ApiTest6ResultV", "init"]
 - ["7ApiTest6ResultV", "init"]
@@ -31,11 +31,11 @@ depends-top-level:
 - "Codable"
 - "CodingKey"
 - "Data"
-- "DataModal"
 - "Double"
 - "Int"
 - !private "JSONDecoder"
 - !private "JSONEncoder"
+- "MovieList"
 - "Result"
 - "String"
 - "StringLiteralType"
@@ -67,46 +67,46 @@ depends-member:
 - ["s9CodingKeyP", "rawValue"]
 - ["s9CodingKeyP", "stringValue"]
 - ["7ApiTest6ResultV10CodingKeysO", "RawValue"]
-- ["7ApiTest9DataModalV10CodingKeysO", "RawValue"]
+- ["7ApiTest9MovieListV10CodingKeysO", "RawValue"]
 - ["7ApiTest6ResultV10CodingKeysO", "_Default_RawValue"]
-- ["7ApiTest9DataModalV10CodingKeysO", "_Default_RawValue"]
+- ["7ApiTest9MovieListV10CodingKeysO", "_Default_RawValue"]
 - !private ["7ApiTest6ResultV10CodingKeysO", "_findStringSwitchCase"]
-- !private ["7ApiTest9DataModalV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["7ApiTest9MovieListV10CodingKeysO", "_findStringSwitchCase"]
 - ["7ApiTest6ResultV10CodingKeysO", "adult"]
 - ["7ApiTest6ResultV10CodingKeysO", "backdropPath"]
 - ["7ApiTest6ResultV10CodingKeysO", "debugDescription"]
-- ["7ApiTest9DataModalV10CodingKeysO", "debugDescription"]
+- ["7ApiTest9MovieListV10CodingKeysO", "debugDescription"]
 - ["7ApiTest6ResultV10CodingKeysO", "deinit"]
-- ["7ApiTest9DataModalV10CodingKeysO", "deinit"]
+- ["7ApiTest9MovieListV10CodingKeysO", "deinit"]
 - ["7ApiTest6ResultV10CodingKeysO", "description"]
-- ["7ApiTest9DataModalV10CodingKeysO", "description"]
+- ["7ApiTest9MovieListV10CodingKeysO", "description"]
 - ["7ApiTest6ResultV10CodingKeysO", "genreIDS"]
 - ["7ApiTest6ResultV10CodingKeysO", "hash"]
-- ["7ApiTest9DataModalV10CodingKeysO", "hash"]
+- ["7ApiTest9MovieListV10CodingKeysO", "hash"]
 - ["7ApiTest6ResultV10CodingKeysO", "hashValue"]
-- ["7ApiTest9DataModalV10CodingKeysO", "hashValue"]
+- ["7ApiTest9MovieListV10CodingKeysO", "hashValue"]
 - ["7ApiTest6ResultV10CodingKeysO", "id"]
 - ["7ApiTest6ResultV10CodingKeysO", "init"]
-- ["7ApiTest9DataModalV10CodingKeysO", "init"]
+- ["7ApiTest9MovieListV10CodingKeysO", "init"]
 - !private ["7ApiTest6ResultV10CodingKeysO", "init"]
-- !private ["7ApiTest9DataModalV10CodingKeysO", "init"]
+- !private ["7ApiTest9MovieListV10CodingKeysO", "init"]
 - ["7ApiTest6ResultV10CodingKeysO", "intValue"]
-- ["7ApiTest9DataModalV10CodingKeysO", "intValue"]
+- ["7ApiTest9MovieListV10CodingKeysO", "intValue"]
 - ["7ApiTest6ResultV10CodingKeysO", "originalLanguage"]
 - ["7ApiTest6ResultV10CodingKeysO", "originalTitle"]
 - ["7ApiTest6ResultV10CodingKeysO", "overview"]
-- ["7ApiTest9DataModalV10CodingKeysO", "page"]
+- ["7ApiTest9MovieListV10CodingKeysO", "page"]
 - ["7ApiTest6ResultV10CodingKeysO", "popularity"]
 - ["7ApiTest6ResultV10CodingKeysO", "posterPath"]
 - ["7ApiTest6ResultV10CodingKeysO", "rawValue"]
-- ["7ApiTest9DataModalV10CodingKeysO", "rawValue"]
+- ["7ApiTest9MovieListV10CodingKeysO", "rawValue"]
 - ["7ApiTest6ResultV10CodingKeysO", "releaseDate"]
-- ["7ApiTest9DataModalV10CodingKeysO", "results"]
+- ["7ApiTest9MovieListV10CodingKeysO", "results"]
 - ["7ApiTest6ResultV10CodingKeysO", "stringValue"]
-- ["7ApiTest9DataModalV10CodingKeysO", "stringValue"]
+- ["7ApiTest9MovieListV10CodingKeysO", "stringValue"]
 - ["7ApiTest6ResultV10CodingKeysO", "title"]
-- ["7ApiTest9DataModalV10CodingKeysO", "totalPages"]
-- ["7ApiTest9DataModalV10CodingKeysO", "totalResults"]
+- ["7ApiTest9MovieListV10CodingKeysO", "totalPages"]
+- ["7ApiTest9MovieListV10CodingKeysO", "totalResults"]
 - ["7ApiTest6ResultV10CodingKeysO", "video"]
 - ["7ApiTest6ResultV10CodingKeysO", "voteAverage"]
 - ["7ApiTest6ResultV10CodingKeysO", "voteCount"]
@@ -161,31 +161,11 @@ depends-member:
 - ["s23CustomStringConvertibleP", "stringValue"]
 - !private ["s23CustomStringConvertibleP", "utf8"]
 - !private ["10Foundation4DataV", "init"]
-- ["7ApiTest9DataModalV", "CodingKey"]
-- ["7ApiTest9DataModalV", "CodingKeys"]
-- ["7ApiTest9DataModalV", "Data"]
-- !private ["7ApiTest9DataModalV", "DataModal"]
-- ["7ApiTest9DataModalV", "Int"]
-- !private ["7ApiTest9DataModalV", "JSONDecoder"]
-- !private ["7ApiTest9DataModalV", "JSONEncoder"]
-- ["7ApiTest9DataModalV", "Result"]
-- ["7ApiTest9DataModalV", "String"]
-- !private ["7ApiTest9DataModalV", "URL"]
-- !private ["7ApiTest9DataModalV", "_findStringSwitchCase"]
-- ["7ApiTest9DataModalV", "deinit"]
-- ["7ApiTest9DataModalV", "encode"]
-- ["7ApiTest9DataModalV", "init"]
-- ["7ApiTest9DataModalV", "json"]
-- ["7ApiTest9DataModalV", "jsonData"]
-- ["7ApiTest9DataModalV", "page"]
-- ["7ApiTest9DataModalV", "results"]
-- ["7ApiTest9DataModalV", "totalPages"]
-- ["7ApiTest9DataModalV", "totalResults"]
 - !private ["Se", "Data"]
-- !private ["Se", "DataModal"]
 - ["Se", "Encoding"]
 - !private ["Se", "JSONDecoder"]
 - !private ["Se", "JSONEncoder"]
+- !private ["Se", "MovieList"]
 - !private ["Se", "Result"]
 - !private ["Se", "String"]
 - !private ["Se", "URL"]
@@ -217,10 +197,10 @@ depends-member:
 - !private ["Se", "voteCount"]
 - !private ["s7DecoderP", "container"]
 - !private ["SE", "Data"]
-- !private ["SE", "DataModal"]
 - ["SE", "Encoding"]
 - !private ["SE", "JSONDecoder"]
 - !private ["SE", "JSONEncoder"]
+- !private ["SE", "MovieList"]
 - !private ["SE", "Result"]
 - !private ["SE", "String"]
 - !private ["SE", "URL"]
@@ -317,6 +297,26 @@ depends-member:
 - !private ["s10MirrorPathP", "data"]
 - ["s10MirrorPathP", "init"]
 - ["s10MirrorPathP", "init"]
+- ["7ApiTest9MovieListV", "CodingKey"]
+- ["7ApiTest9MovieListV", "CodingKeys"]
+- ["7ApiTest9MovieListV", "Data"]
+- ["7ApiTest9MovieListV", "Int"]
+- !private ["7ApiTest9MovieListV", "JSONDecoder"]
+- !private ["7ApiTest9MovieListV", "JSONEncoder"]
+- !private ["7ApiTest9MovieListV", "MovieList"]
+- ["7ApiTest9MovieListV", "Result"]
+- ["7ApiTest9MovieListV", "String"]
+- !private ["7ApiTest9MovieListV", "URL"]
+- !private ["7ApiTest9MovieListV", "_findStringSwitchCase"]
+- ["7ApiTest9MovieListV", "deinit"]
+- ["7ApiTest9MovieListV", "encode"]
+- ["7ApiTest9MovieListV", "init"]
+- ["7ApiTest9MovieListV", "json"]
+- ["7ApiTest9MovieListV", "jsonData"]
+- ["7ApiTest9MovieListV", "page"]
+- ["7ApiTest9MovieListV", "results"]
+- ["7ApiTest9MovieListV", "totalPages"]
+- ["7ApiTest9MovieListV", "totalResults"]
 - !private ["SM", "init"]
 - !private ["So8NSCodingP", "data"]
 - !private ["So9NSCopyingP", "data"]
@@ -440,37 +440,37 @@ depends-nominal:
 - "s7CVarArgP"
 - "s9CodingKeyP"
 - "7ApiTest6ResultV10CodingKeysO"
-- "7ApiTest9DataModalV10CodingKeysO"
+- "7ApiTest9MovieListV10CodingKeysO"
 - "7ApiTest6ResultV10CodingKeysO"
-- "7ApiTest9DataModalV10CodingKeysO"
+- "7ApiTest9MovieListV10CodingKeysO"
 - !private "7ApiTest6ResultV10CodingKeysO"
-- !private "7ApiTest9DataModalV10CodingKeysO"
+- !private "7ApiTest9MovieListV10CodingKeysO"
 - "7ApiTest6ResultV10CodingKeysO"
-- "7ApiTest9DataModalV10CodingKeysO"
+- "7ApiTest9MovieListV10CodingKeysO"
 - "7ApiTest6ResultV10CodingKeysO"
-- "7ApiTest9DataModalV10CodingKeysO"
+- "7ApiTest9MovieListV10CodingKeysO"
 - "7ApiTest6ResultV10CodingKeysO"
-- "7ApiTest9DataModalV10CodingKeysO"
+- "7ApiTest9MovieListV10CodingKeysO"
 - "7ApiTest6ResultV10CodingKeysO"
-- "7ApiTest9DataModalV10CodingKeysO"
+- "7ApiTest9MovieListV10CodingKeysO"
 - "7ApiTest6ResultV10CodingKeysO"
-- "7ApiTest9DataModalV10CodingKeysO"
+- "7ApiTest9MovieListV10CodingKeysO"
 - "7ApiTest6ResultV10CodingKeysO"
-- "7ApiTest9DataModalV10CodingKeysO"
+- "7ApiTest9MovieListV10CodingKeysO"
 - !private "7ApiTest6ResultV10CodingKeysO"
-- !private "7ApiTest9DataModalV10CodingKeysO"
+- !private "7ApiTest9MovieListV10CodingKeysO"
 - "7ApiTest6ResultV10CodingKeysO"
-- "7ApiTest9DataModalV10CodingKeysO"
+- "7ApiTest9MovieListV10CodingKeysO"
 - "7ApiTest6ResultV10CodingKeysO"
-- "7ApiTest9DataModalV10CodingKeysO"
+- "7ApiTest9MovieListV10CodingKeysO"
 - "7ApiTest6ResultV10CodingKeysO"
-- "7ApiTest9DataModalV10CodingKeysO"
+- "7ApiTest9MovieListV10CodingKeysO"
 - "7ApiTest6ResultV10CodingKeysO"
-- "7ApiTest9DataModalV10CodingKeysO"
+- "7ApiTest9MovieListV10CodingKeysO"
 - "7ApiTest6ResultV10CodingKeysO"
-- "7ApiTest9DataModalV10CodingKeysO"
+- "7ApiTest9MovieListV10CodingKeysO"
 - "7ApiTest6ResultV10CodingKeysO"
-- "7ApiTest9DataModalV10CodingKeysO"
+- "7ApiTest9MovieListV10CodingKeysO"
 - "7ApiTest6ResultV10CodingKeysO"
 - "Sl"
 - "SL"
@@ -479,7 +479,6 @@ depends-nominal:
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - !private "10Foundation4DataV"
-- "7ApiTest9DataModalV"
 - "Se"
 - !private "s7DecoderP"
 - "SE"
@@ -500,6 +499,7 @@ depends-nominal:
 - !private "s30KeyedEncodingContainerProtocolP"
 - "s25LosslessStringConvertibleP"
 - "s10MirrorPathP"
+- "7ApiTest9MovieListV"
 - !private "SM"
 - !private "So8NSCodingP"
 - !private "So9NSCopyingP"
@@ -559,4 +559,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "091ede7139d73143eb59224164c53e73"
+interface-hash: "b659745b9a5d75e5fc47c4a78b9f1791"

@@ -1,14 +1,16 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "0e94cb3bf63a1a29ea9b1c874c1b6193"
-build_time: [1551712753, 651447000]
+options: "cbc970c32aed57e7ace1b55e0d204858"
+build_time: [1551799241, 361703000]
 inputs:
   "/Users/pradeepdahiya/Desktop/ApiTest/ApiTest/AppConfiguration/AppConfiguration.swift": [1550243569, 0]
   "/Users/pradeepdahiya/Desktop/ApiTest/ApiTest/AppConfiguration/RequestCreator.swift": [1551366129, 0]
   "/Users/pradeepdahiya/Desktop/ApiTest/ApiTest/Modals/DataModal.swift": [1551359985, 0]
-  "/Users/pradeepdahiya/Desktop/ApiTest/ApiTest/ViewController.swift": [1551709287, 0]
+  "/Users/pradeepdahiya/Desktop/ApiTest/ApiTest/ViewController.swift": [1551790847, 0]
   "/Users/pradeepdahiya/Desktop/ApiTest/ApiTest/Modals/Networks.swift": [1551709287, 0]
+  "/Users/pradeepdahiya/Desktop/ApiTest/ApiTest/Controllers/MovieDetailsViewController.swift": [1551797435, 0]
   "/Users/pradeepdahiya/Desktop/ApiTest/ApiTest/Modals/UrlList.swift": [1551709570, 0]
-  "/Users/pradeepdahiya/Desktop/ApiTest/ApiTest/cellClasses/MovieTableViewCell.swift": [1551712753, 0]
+  "/Users/pradeepdahiya/Desktop/ApiTest/ApiTest/cellClasses/MovieTableViewCell.swift": [1551780733, 0]
+  "/Users/pradeepdahiya/Desktop/ApiTest/ApiTest/CustomViews/DetailHeaderView.swift": [1551799241, 0]
   "/Users/pradeepdahiya/Desktop/ApiTest/ApiTest/AppDelegate.swift": [1550223939, 0]
   "/Users/pradeepdahiya/Desktop/ApiTest/ApiTest/Modals/ConfigurationModal.swift": [1551368935, 0]
-  "/Users/pradeepdahiya/Desktop/ApiTest/ApiTest/Constants/Constants.swift": [1551712134, 0]
+  "/Users/pradeepdahiya/Desktop/ApiTest/ApiTest/Constants/Constants.swift": [1551779588, 0]

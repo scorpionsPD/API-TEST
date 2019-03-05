@@ -8,108 +8,153 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "=="
+- !private "??"
 - "Data"
+- "Error"
 - "NSObject"
 - "NetworkHandler"
 - "String"
-- !private "URL"
+- !private "StringLiteralType"
+- "UIImage"
+- "URL"
 - !private "URLRequest"
+- "URLResponse"
 - !private "URLSession"
 - "Void"
 - !private "print"
 depends-member:
-- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "NetworkHandler"]
+- !private ["s7CVarArgP", "UIImage"]
 - !private ["s7CVarArgP", "URL"]
 - !private ["s7CVarArgP", "URLRequest"]
 - !private ["s7CVarArgP", "URLSession"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "getData"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "resume"]
 - !private ["s7CVarArgP", "shared"]
-- !private ["Sl", "count"]
+- !private ["s7CVarArgP", "suggestedFilename"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "NetworkHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
 - !private ["s28CustomDebugStringConvertibleP", "URL"]
 - !private ["s28CustomDebugStringConvertibleP", "URLRequest"]
 - !private ["s28CustomDebugStringConvertibleP", "URLSession"]
 - ["s28CustomDebugStringConvertibleP", ""]
-- !private ["s28CustomDebugStringConvertibleP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "getData"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lastPathComponent"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "resume"]
 - !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "suggestedFilename"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lastPathComponent"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
-- !private ["s17CustomReflectableP", "count"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s23CustomStringConvertibleP", "NetworkHandler"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
 - !private ["s23CustomStringConvertibleP", "URL"]
 - !private ["s23CustomStringConvertibleP", "URLRequest"]
 - !private ["s23CustomStringConvertibleP", "URLSession"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
-- !private ["s23CustomStringConvertibleP", "count"]
 - !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "getData"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lastPathComponent"]
 - !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "resume"]
 - !private ["s23CustomStringConvertibleP", "shared"]
-- !private ["10Foundation4DataV", "count"]
+- !private ["s23CustomStringConvertibleP", "suggestedFilename"]
 - !private ["Se", "_getBuiltinLogicValue"]
-- !private ["Se", "count"]
 - !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "lastPathComponent"]
 - !private ["SE", "_getBuiltinLogicValue"]
-- !private ["SE", "count"]
 - !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "lastPathComponent"]
 - !private ["SQ", "NetworkHandler"]
+- !private ["SQ", "UIImage"]
 - !private ["SQ", "URL"]
 - !private ["SQ", "URLRequest"]
 - !private ["SQ", "URLSession"]
 - ["SQ", ""]
 - !private ["SQ", "_getBuiltinLogicValue"]
-- !private ["SQ", "count"]
 - !private ["SQ", "dataTask"]
+- !private ["SQ", "getData"]
 - !private ["SQ", "init"]
 - !private ["SQ", "init"]
+- !private ["SQ", "lastPathComponent"]
 - !private ["SQ", "print"]
 - !private ["SQ", "resume"]
 - !private ["SQ", "shared"]
+- !private ["SQ", "suggestedFilename"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["SH", "NetworkHandler"]
+- !private ["SH", "UIImage"]
 - !private ["SH", "URL"]
 - !private ["SH", "URLRequest"]
 - !private ["SH", "URLSession"]
 - ["SH", ""]
 - !private ["SH", "_getBuiltinLogicValue"]
-- !private ["SH", "count"]
 - !private ["SH", "dataTask"]
+- !private ["SH", "getData"]
 - !private ["SH", "init"]
 - !private ["SH", "init"]
+- !private ["SH", "lastPathComponent"]
 - !private ["SH", "print"]
 - !private ["SH", "resume"]
 - !private ["SH", "shared"]
+- !private ["SH", "suggestedFilename"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
-- !private ["SM", "count"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "suggestedFilename"]
 - !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "suggestedFilename"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
 - ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Error"]
 - ["So8NSObjectC", "NetworkHandler"]
 - ["So8NSObjectC", "String"]
-- !private ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "URL"]
 - !private ["So8NSObjectC", "URLRequest"]
+- ["So8NSObjectC", "URLResponse"]
 - !private ["So8NSObjectC", "URLSession"]
 - ["So8NSObjectC", "Void"]
 - ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "dataTask"]
+- ["So8NSObjectC", "downloadImage"]
+- ["So8NSObjectC", "getData"]
 - ["So8NSObjectC", "getResponce"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "init"]
@@ -117,94 +162,157 @@ depends-member:
 - !private ["So8NSObjectC", "resume"]
 - !private ["So8NSObjectC", "shared"]
 - ["So8NSObjectC", "sharedInstance"]
+- !private ["So8NSObjectC", "suggestedFilename"]
 - !private ["So8NSObjectP", "NetworkHandler"]
+- !private ["So8NSObjectP", "UIImage"]
 - !private ["So8NSObjectP", "URL"]
 - !private ["So8NSObjectP", "URLRequest"]
 - !private ["So8NSObjectP", "URLSession"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "getData"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "print"]
 - !private ["So8NSObjectP", "resume"]
 - !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "suggestedFilename"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "suggestedFilename"]
 - ["7ApiTest14NetworkHandlerC", "Data"]
+- ["7ApiTest14NetworkHandlerC", "Error"]
 - ["7ApiTest14NetworkHandlerC", "NetworkHandler"]
 - ["7ApiTest14NetworkHandlerC", "String"]
-- !private ["7ApiTest14NetworkHandlerC", "URL"]
+- ["7ApiTest14NetworkHandlerC", "UIImage"]
+- ["7ApiTest14NetworkHandlerC", "URL"]
 - !private ["7ApiTest14NetworkHandlerC", "URLRequest"]
+- ["7ApiTest14NetworkHandlerC", "URLResponse"]
 - !private ["7ApiTest14NetworkHandlerC", "URLSession"]
 - ["7ApiTest14NetworkHandlerC", "Void"]
+- ["7ApiTest14NetworkHandlerC", "downloadImage"]
+- ["7ApiTest14NetworkHandlerC", "getData"]
 - ["7ApiTest14NetworkHandlerC", "getResponce"]
 - ["7ApiTest14NetworkHandlerC", "init"]
 - !private ["7ApiTest14NetworkHandlerC", "print"]
 - ["7ApiTest14NetworkHandlerC", "sharedInstance"]
 - !private ["So19NSProgressReportingP", "resume"]
-- !private ["Sk", "count"]
-- !private ["Sm", "count"]
-- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
-- !private ["ST", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "lastPathComponent"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
 - !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation3URLV", "lastPathComponent"]
 - !private ["10Foundation10URLRequestV", "init"]
 - !private ["10Foundation10URLRequestV", "init"]
+- !private ["So13NSURLResponseC", "suggestedFilename"]
 - !private ["So12NSURLSessionC", "dataTask"]
 - !private ["So12NSURLSessionC", "shared"]
 - !private ["So20NSURLSessionDataTaskC", "resume"]
 - !private ["So16NSURLSessionTaskC", "resume"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "lastPathComponent"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NetworkHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "URLRequest"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getData"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "suggestedFilename"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
-- !private ["s21_ObjectiveCBridgeableP", "count"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "lastPathComponent"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "SK"
 - !private "Sb"
 - "s7CVarArgP"
 - !private "Sl"
+- !private "SL"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- !private "10Foundation4DataV"
 - !private "Se"
 - !private "SE"
 - "SQ"
 - !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
 - !private "s25LosslessStringConvertibleP"
-- !private "SM"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
 - !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "So14NSSecureCodingP"
 - "7ApiTest14NetworkHandlerC"
 - !private "So19NSProgressReportingP"
-- !private "Sk"
 - !private "Sm"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
 - !private "10Foundation3URLV"
 - !private "10Foundation10URLRequestV"
+- !private "So13NSURLResponseC"
 - !private "So12NSURLSessionC"
 - !private "So20NSURLSessionDataTaskC"
 - !private "So16NSURLSessionTaskC"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
@@ -231,4 +339,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "3c5b197e3048e0140a4874b4120973c9"
+interface-hash: "10aa9d85f77df0b2d081ca61827f19af"
