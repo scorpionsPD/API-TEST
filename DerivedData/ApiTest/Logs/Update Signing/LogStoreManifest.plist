@@ -29,29 +29,6 @@
 			<key>uniqueIdentifier</key>
 			<string>D8E46CAB-83A4-4D9A-8906-14D442B6282E</string>
 		</dict>
-		<key>FC03CB64-7412-4E57-ABD7-4D5B7E46EF39</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
-			<key>fileName</key>
-			<string>FC03CB64-7412-4E57-ABD7-4D5B7E46EF39.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>Update Signing</string>
-			<key>timeStartedRecording</key>
-			<real>572778500.86008596</real>
-			<key>timeStoppedRecording</key>
-			<real>572778510.47677195</real>
-			<key>title</key>
-			<string>Update Signing</string>
-			<key>uniqueIdentifier</key>
-			<string>FC03CB64-7412-4E57-ABD7-4D5B7E46EF39</string>
-		</dict>
 	</dict>
 </dict>
 </plist>
