@@ -1,0 +1,156 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "urlRequest"
+- "RequestCreator"
+provides-nominal:
+- "7ApiTest14RequestCreatorC"
+provides-member:
+- ["7ApiTest14RequestCreatorC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "JSONDecoder"
+- "MovieList"
+- "NSObject"
+- !private "NetworkHandler"
+- "RequestCreator"
+- "Void"
+- "topRatedMoviesURL"
+- "urlRequest"
+depends-member:
+- !private ["s7CVarArgP", "JSONDecoder"]
+- !private ["s7CVarArgP", "MovieList"]
+- !private ["s7CVarArgP", "NetworkHandler"]
+- !private ["s7CVarArgP", "RequestCreator"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "getResponce"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "sharedInstance"]
+- !private ["s7CVarArgP", "topRatedMoviesURL"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "MovieList"]
+- !private ["s28CustomDebugStringConvertibleP", "NetworkHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "RequestCreator"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "getResponce"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "topRatedMoviesURL"]
+- !private ["s23CustomStringConvertibleP", "JSONDecoder"]
+- !private ["s23CustomStringConvertibleP", "MovieList"]
+- !private ["s23CustomStringConvertibleP", "NetworkHandler"]
+- !private ["s23CustomStringConvertibleP", "RequestCreator"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "getResponce"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "sharedInstance"]
+- !private ["s23CustomStringConvertibleP", "topRatedMoviesURL"]
+- !private ["SQ", "JSONDecoder"]
+- !private ["SQ", "MovieList"]
+- !private ["SQ", "NetworkHandler"]
+- !private ["SQ", "RequestCreator"]
+- ["SQ", ""]
+- !private ["SQ", "getResponce"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "sharedInstance"]
+- !private ["SQ", "topRatedMoviesURL"]
+- !private ["SH", "JSONDecoder"]
+- !private ["SH", "MovieList"]
+- !private ["SH", "NetworkHandler"]
+- !private ["SH", "RequestCreator"]
+- ["SH", ""]
+- !private ["SH", "getResponce"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "sharedInstance"]
+- !private ["SH", "topRatedMoviesURL"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["7ApiTest9MovieListV", "deinit"]
+- !private ["So8NSObjectC", "JSONDecoder"]
+- ["So8NSObjectC", "MovieList"]
+- !private ["So8NSObjectC", "NetworkHandler"]
+- ["So8NSObjectC", "RequestCreator"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "callRequestForMoviesList"]
+- !private ["So8NSObjectC", "getResponce"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "sharedInstance"]
+- !private ["So8NSObjectC", "topRatedMoviesURL"]
+- !private ["So8NSObjectP", "JSONDecoder"]
+- !private ["So8NSObjectP", "MovieList"]
+- !private ["So8NSObjectP", "NetworkHandler"]
+- !private ["So8NSObjectP", "RequestCreator"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "getResponce"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "sharedInstance"]
+- !private ["So8NSObjectP", "topRatedMoviesURL"]
+- !private ["7ApiTest14NetworkHandlerC", "getResponce"]
+- !private ["7ApiTest14NetworkHandlerC", "sharedInstance"]
+- !private ["7ApiTest14RequestCreatorC", "JSONDecoder"]
+- ["7ApiTest14RequestCreatorC", "MovieList"]
+- !private ["7ApiTest14RequestCreatorC", "NetworkHandler"]
+- ["7ApiTest14RequestCreatorC", "RequestCreator"]
+- ["7ApiTest14RequestCreatorC", "Void"]
+- ["7ApiTest14RequestCreatorC", "callRequestForMoviesList"]
+- ["7ApiTest14RequestCreatorC", "init"]
+- ["7ApiTest14RequestCreatorC", "shared"]
+- !private ["7ApiTest14RequestCreatorC", "topRatedMoviesURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONDecoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MovieList"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NetworkHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RequestCreator"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getResponce"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "topRatedMoviesURL"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "10Foundation11JSONDecoderC"
+- !private "7ApiTest9MovieListV"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "7ApiTest14NetworkHandlerC"
+- "7ApiTest14RequestCreatorC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "82faa6eb3df5665c50c22ce0021aee8e"

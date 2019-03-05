@@ -1,0 +1,754 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VCCNetworkHandler"
+provides-nominal:
+- "7ApiTest17VCCNetworkHandlerC"
+provides-member:
+- ["7ApiTest17VCCNetworkHandlerC", ""]
+provides-dynamic-lookup:
+- "hideIndicator"
+- "logoutCurrentSession"
+depends-top-level:
+- !private "+"
+- !private "=="
+- !private "Alert"
+- !private "AppDelegate"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Data"
+- !private "DispatchQueue"
+- !private "FloatLiteralType"
+- !private "Int"
+- !private "IntegerLiteralType"
+- !private "JSONSerialization"
+- "NSObject"
+- !private "ProgressHud"
+- !private "SignInViewController"
+- "String"
+- !private "StringLiteralType"
+- !private "UIApplication"
+- !private "UINavigationController"
+- !private "UIStoryboard"
+- "UIViewController"
+- !private "URL"
+- !private "URLRequest"
+- !private "URLSession"
+- !private "UnicodeScalarType"
+- !private "UserDefaults"
+- "VCCNetworkHandler"
+- "Void"
+- !private "noInterNetConnectionMessage"
+- !private "print"
+depends-member:
+- !private ["7ApiTest11AppDelegateC", "deinit"]
+- !private ["7ApiTest11AppDelegateC", "window"]
+- !private ["Sa", "last"]
+- !private ["s13ArrayProtocolP", "last"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "last"]
+- !private ["SK", "replacingOccurrences"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- !private ["s7CVarArgP", "Alert"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "JSONSerialization"]
+- !private ["s7CVarArgP", "ProgressHud"]
+- !private ["s7CVarArgP", "SignInViewController"]
+- !private ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "UINavigationController"]
+- !private ["s7CVarArgP", "UIStoryboard"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "URLRequest"]
+- !private ["s7CVarArgP", "URLSession"]
+- !private ["s7CVarArgP", "UserDefaults"]
+- !private ["s7CVarArgP", "VCCNetworkHandler"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "checkNetworkStatus"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "hideIndicator"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "logoutCurrentSession"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "noInterNetConnectionMessage"]
+- !private ["s7CVarArgP", "perform"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "removeObject"]
+- !private ["s7CVarArgP", "replacingOccurrences"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "rootViewController"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "synchronize"]
+- !private ["s7CVarArgP", "viewControllers"]
+- !private ["s7CVarArgP", "window"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "last"]
+- !private ["Sl", "replacingOccurrences"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "replacingOccurrences"]
+- !private ["s28CustomDebugStringConvertibleP", "Alert"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONSerialization"]
+- !private ["s28CustomDebugStringConvertibleP", "ProgressHud"]
+- !private ["s28CustomDebugStringConvertibleP", "SignInViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "UINavigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "URLRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "URLSession"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDefaults"]
+- !private ["s28CustomDebugStringConvertibleP", "VCCNetworkHandler"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "checkNetworkStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "hideIndicator"]
+- !private ["s28CustomDebugStringConvertibleP", "httpMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "logoutCurrentSession"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "noInterNetConnectionMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "perform"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObject"]
+- !private ["s28CustomDebugStringConvertibleP", "replacingOccurrences"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "synchronize"]
+- !private ["s28CustomDebugStringConvertibleP", "timeoutInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "viewControllers"]
+- !private ["s28CustomDebugStringConvertibleP", "window"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "replacingOccurrences"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "httpMethod"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "replacingOccurrences"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "timeoutInterval"]
+- !private ["s23CustomStringConvertibleP", "Alert"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "JSONSerialization"]
+- !private ["s23CustomStringConvertibleP", "ProgressHud"]
+- !private ["s23CustomStringConvertibleP", "SignInViewController"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "UINavigationController"]
+- !private ["s23CustomStringConvertibleP", "UIStoryboard"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "URLRequest"]
+- !private ["s23CustomStringConvertibleP", "URLSession"]
+- !private ["s23CustomStringConvertibleP", "UserDefaults"]
+- !private ["s23CustomStringConvertibleP", "VCCNetworkHandler"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "checkNetworkStatus"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "hideIndicator"]
+- !private ["s23CustomStringConvertibleP", "httpMethod"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "logoutCurrentSession"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "noInterNetConnectionMessage"]
+- !private ["s23CustomStringConvertibleP", "perform"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "removeObject"]
+- !private ["s23CustomStringConvertibleP", "replacingOccurrences"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "synchronize"]
+- !private ["s23CustomStringConvertibleP", "timeoutInterval"]
+- !private ["s23CustomStringConvertibleP", "viewControllers"]
+- !private ["s23CustomStringConvertibleP", "window"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "last"]
+- !private ["Se", "replacingOccurrences"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "last"]
+- !private ["SE", "replacingOccurrences"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Alert"]
+- !private ["SQ", "DispatchQueue"]
+- !private ["SQ", "JSONSerialization"]
+- !private ["SQ", "ProgressHud"]
+- !private ["SQ", "SignInViewController"]
+- !private ["SQ", "UIApplication"]
+- !private ["SQ", "UINavigationController"]
+- !private ["SQ", "UIStoryboard"]
+- !private ["SQ", "URL"]
+- !private ["SQ", "URLRequest"]
+- !private ["SQ", "URLSession"]
+- !private ["SQ", "UserDefaults"]
+- !private ["SQ", "VCCNetworkHandler"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "allowFragments"]
+- !private ["SQ", "async"]
+- !private ["SQ", "checkNetworkStatus"]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "hideIndicator"]
+- !private ["SQ", "httpMethod"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "jsonObject"]
+- !private ["SQ", "last"]
+- !private ["SQ", "logoutCurrentSession"]
+- !private ["SQ", "main"]
+- !private ["SQ", "navigationController"]
+- !private ["SQ", "noInterNetConnectionMessage"]
+- !private ["SQ", "perform"]
+- !private ["SQ", "print"]
+- !private ["SQ", "removeObject"]
+- !private ["SQ", "replacingOccurrences"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "rootViewController"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "standard"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "synchronize"]
+- !private ["SQ", "timeoutInterval"]
+- !private ["SQ", "viewControllers"]
+- !private ["SQ", "window"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "allowFragments"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "replacingOccurrences"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["SH", "Alert"]
+- !private ["SH", "DispatchQueue"]
+- !private ["SH", "JSONSerialization"]
+- !private ["SH", "ProgressHud"]
+- !private ["SH", "SignInViewController"]
+- !private ["SH", "UIApplication"]
+- !private ["SH", "UINavigationController"]
+- !private ["SH", "UIStoryboard"]
+- !private ["SH", "URL"]
+- !private ["SH", "URLRequest"]
+- !private ["SH", "URLSession"]
+- !private ["SH", "UserDefaults"]
+- !private ["SH", "VCCNetworkHandler"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "async"]
+- !private ["SH", "checkNetworkStatus"]
+- !private ["SH", "dataTask"]
+- !private ["SH", "delegate"]
+- !private ["SH", "hideIndicator"]
+- !private ["SH", "httpMethod"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "jsonObject"]
+- !private ["SH", "last"]
+- !private ["SH", "logoutCurrentSession"]
+- !private ["SH", "main"]
+- !private ["SH", "navigationController"]
+- !private ["SH", "noInterNetConnectionMessage"]
+- !private ["SH", "perform"]
+- !private ["SH", "print"]
+- !private ["SH", "removeObject"]
+- !private ["SH", "replacingOccurrences"]
+- !private ["SH", "resume"]
+- !private ["SH", "rootViewController"]
+- !private ["SH", "shared"]
+- !private ["SH", "standard"]
+- !private ["SH", "subscript"]
+- !private ["SH", "synchronize"]
+- !private ["SH", "timeoutInterval"]
+- !private ["SH", "viewControllers"]
+- !private ["SH", "window"]
+- !private ["So19NSJSONSerializationC", "jsonObject"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "replacingOccurrences"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "replacingOccurrences"]
+- !private ["SM", "last"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "replacingOccurrences"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So8NSCodingP", "viewControllers"]
+- !private ["So9NSCopyingP", "replacingOccurrences"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "viewControllers"]
+- !private ["So21NSItemProviderReadingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderWritingP", "replacingOccurrences"]
+- !private ["So16NSMutableCopyingP", "replacingOccurrences"]
+- !private ["So8NSObjectC", "Alert"]
+- !private ["So8NSObjectC", "AppDelegate"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "JSONSerialization"]
+- !private ["So8NSObjectC", "ProgressHud"]
+- !private ["So8NSObjectC", "SignInViewController"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIApplication"]
+- !private ["So8NSObjectC", "UINavigationController"]
+- !private ["So8NSObjectC", "UIStoryboard"]
+- ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLRequest"]
+- !private ["So8NSObjectC", "URLSession"]
+- !private ["So8NSObjectC", "UserDefaults"]
+- ["So8NSObjectC", "VCCNetworkHandler"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "checkNetworkStatus"]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "getResponse"]
+- ["So8NSObjectC", "getResponseWithLoader"]
+- ["So8NSObjectC", "getResponseWithoutLoader"]
+- ["So8NSObjectC", "hideIndicator"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "jsonObject"]
+- ["So8NSObjectC", "logoutCurrentSession"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "navigationController"]
+- !private ["So8NSObjectC", "noInterNetConnectionMessage"]
+- !private ["So8NSObjectC", "perform"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "removeObject"]
+- !private ["So8NSObjectC", "replacingOccurrences"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "rootViewController"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "sharedInstance"]
+- !private ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectC", "synchronize"]
+- !private ["So8NSObjectC", "viewControllers"]
+- !private ["So8NSObjectC", "window"]
+- !private ["So8NSObjectP", "Alert"]
+- !private ["So8NSObjectP", "DispatchQueue"]
+- !private ["So8NSObjectP", "JSONSerialization"]
+- !private ["So8NSObjectP", "ProgressHud"]
+- !private ["So8NSObjectP", "SignInViewController"]
+- !private ["So8NSObjectP", "UIApplication"]
+- !private ["So8NSObjectP", "UINavigationController"]
+- !private ["So8NSObjectP", "UIStoryboard"]
+- !private ["So8NSObjectP", "URL"]
+- !private ["So8NSObjectP", "URLRequest"]
+- !private ["So8NSObjectP", "URLSession"]
+- !private ["So8NSObjectP", "UserDefaults"]
+- !private ["So8NSObjectP", "VCCNetworkHandler"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "checkNetworkStatus"]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "hideIndicator"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "jsonObject"]
+- !private ["So8NSObjectP", "logoutCurrentSession"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "navigationController"]
+- !private ["So8NSObjectP", "noInterNetConnectionMessage"]
+- !private ["So8NSObjectP", "perform"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "removeObject"]
+- !private ["So8NSObjectP", "replacingOccurrences"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "rootViewController"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "standard"]
+- !private ["So8NSObjectP", "synchronize"]
+- !private ["So8NSObjectP", "viewControllers"]
+- !private ["So8NSObjectP", "window"]
+- !private ["So14NSSecureCodingP", "replacingOccurrences"]
+- !private ["So8NSStringC", "replacingOccurrences"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["s9OptionSetP", "allowFragments"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["Sk", "last"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "last"]
+- !private ["Sm", "replacingOccurrences"]
+- !private ["SY", "allowFragments"]
+- !private ["So20NSJSONReadingOptionsV", "allowFragments"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpMethod"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeoutInterval"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "last"]
+- !private ["ST", "replacingOccurrences"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "allowFragments"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "replacingOccurrences"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "replacingOccurrences"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "replacingOccurrences"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "replacingOccurrences"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "viewControllers"]
+- !private ["So13UIApplicationC", "delegate"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So21UIApplicationDelegateP", "window"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "viewControllers"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "viewControllers"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So20UIFocusItemContainerP", "rootViewController"]
+- !private ["So22UINavigationControllerC", "viewControllers"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewControllers"]
+- !private ["So30UIPasteConfigurationSupportingP", "window"]
+- !private ["So11UIResponderC", "delegate"]
+- !private ["So11UIResponderC", "navigationController"]
+- !private ["So11UIResponderC", "rootViewController"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So11UIResponderC", "viewControllers"]
+- !private ["So11UIResponderC", "window"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "viewControllers"]
+- !private ["So30UIResponderStandardEditActionsP", "window"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "viewControllers"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So18UITraitEnvironmentP", "viewControllers"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "navigationController"]
+- !private ["So23UIUserActivityRestoringP", "rootViewController"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["So23UIUserActivityRestoringP", "viewControllers"]
+- !private ["So23UIUserActivityRestoringP", "window"]
+- !private ["So6UIViewC", "rootViewController"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- !private ["So16UIViewControllerC", "viewControllers"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation10URLRequestV", "httpMethod"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["10Foundation10URLRequestV", "timeoutInterval"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["So14NSUserDefaultsC", "removeObject"]
+- !private ["So14NSUserDefaultsC", "standard"]
+- !private ["So14NSUserDefaultsC", "synchronize"]
+- !private ["7ApiTest17VCCNetworkHandlerC", "Alert"]
+- !private ["7ApiTest17VCCNetworkHandlerC", "AppDelegate"]
+- ["7ApiTest17VCCNetworkHandlerC", "Bool"]
+- ["7ApiTest17VCCNetworkHandlerC", "Data"]
+- !private ["7ApiTest17VCCNetworkHandlerC", "DispatchQueue"]
+- !private ["7ApiTest17VCCNetworkHandlerC", "Int"]
+- !private ["7ApiTest17VCCNetworkHandlerC", "JSONSerialization"]
+- !private ["7ApiTest17VCCNetworkHandlerC", "ProgressHud"]
+- !private ["7ApiTest17VCCNetworkHandlerC", "SignInViewController"]
+- ["7ApiTest17VCCNetworkHandlerC", "String"]
+- !private ["7ApiTest17VCCNetworkHandlerC", "UIApplication"]
+- !private ["7ApiTest17VCCNetworkHandlerC", "UINavigationController"]
+- !private ["7ApiTest17VCCNetworkHandlerC", "UIStoryboard"]
+- ["7ApiTest17VCCNetworkHandlerC", "UIViewController"]
+- !private ["7ApiTest17VCCNetworkHandlerC", "URL"]
+- !private ["7ApiTest17VCCNetworkHandlerC", "URLRequest"]
+- !private ["7ApiTest17VCCNetworkHandlerC", "URLSession"]
+- !private ["7ApiTest17VCCNetworkHandlerC", "UserDefaults"]
+- ["7ApiTest17VCCNetworkHandlerC", "VCCNetworkHandler"]
+- ["7ApiTest17VCCNetworkHandlerC", "Void"]
+- ["7ApiTest17VCCNetworkHandlerC", "checkNetworkStatus"]
+- ["7ApiTest17VCCNetworkHandlerC", "deinit"]
+- ["7ApiTest17VCCNetworkHandlerC", "getResponse"]
+- ["7ApiTest17VCCNetworkHandlerC", "getResponseWithLoader"]
+- ["7ApiTest17VCCNetworkHandlerC", "getResponseWithoutLoader"]
+- ["7ApiTest17VCCNetworkHandlerC", "hideIndicator"]
+- ["7ApiTest17VCCNetworkHandlerC", "init"]
+- ["7ApiTest17VCCNetworkHandlerC", "logoutCurrentSession"]
+- !private ["7ApiTest17VCCNetworkHandlerC", "noInterNetConnectionMessage"]
+- !private ["7ApiTest17VCCNetworkHandlerC", "perform"]
+- !private ["7ApiTest17VCCNetworkHandlerC", "print"]
+- ["7ApiTest17VCCNetworkHandlerC", "sharedInstance"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "replacingOccurrences"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "replacingOccurrences"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "replacingOccurrences"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "replacingOccurrences"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Alert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONSerialization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ProgressHud"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SignInViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINavigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDefaults"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "VCCNetworkHandler"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "checkNetworkStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hideIndicator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "logoutCurrentSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "noInterNetConnectionMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "perform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replacingOccurrences"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "synchronize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewControllers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "httpMethod"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "replacingOccurrences"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "timeoutInterval"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "replacingOccurrences"]
+depends-nominal:
+- !private "7ApiTest11AppDelegateC"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "So19NSJSONSerializationC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So9OS_objectC"
+- !private "s9OptionSetP"
+- !private "So19NSProgressReportingP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "So20NSJSONReadingOptionsV"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So21UIApplicationDelegateP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So22UINavigationControllerC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- !private "So8UIWindowC"
+- !private "10Foundation3URLV"
+- !private "10Foundation10URLRequestV"
+- !private "So12NSURLSessionC"
+- !private "So20NSURLSessionDataTaskC"
+- !private "So16NSURLSessionTaskC"
+- !private "So14NSUserDefaultsC"
+- "7ApiTest17VCCNetworkHandlerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "721c8455ac411ba1f46ab49c7b4b9762"

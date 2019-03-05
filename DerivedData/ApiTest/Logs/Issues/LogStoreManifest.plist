@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>DAEE8D13-4186-4685-8DB2-F22BEDDF8723</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>DAEE8D13-4186-4685-8DB2-F22BEDDF8723.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>ApiTest-bkkikdsunhmosxemkyxooskoooyo</string>
+			<key>timeStartedRecording</key>
+			<real>573406074.58224201</real>
+			<key>timeStoppedRecording</key>
+			<real>573406080.97468698</real>
+			<key>title</key>
+			<string>Build target ApiTest</string>
+			<key>uniqueIdentifier</key>
+			<string>DAEE8D13-4186-4685-8DB2-F22BEDDF8723</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>
