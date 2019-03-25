@@ -8,112 +8,187 @@ provides-member:
 - ["7ApiTest14RequestCreatorC", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "Int"
 - !private "JSONDecoder"
+- "MovieCredits"
+- "MovieDetail"
 - "MovieList"
+- "MovieVideos"
 - "NSObject"
 - !private "NetworkHandler"
 - "RequestCreator"
+- "String"
 - "Void"
-- "topRatedMoviesURL"
+- !private "movieCreditsURL"
+- !private "movieDetailURL"
+- !private "movieVideosURL"
+- "moviesInTheaterURL"
 - "urlRequest"
 depends-member:
 - !private ["s7CVarArgP", "JSONDecoder"]
+- !private ["s7CVarArgP", "MovieCredits"]
+- !private ["s7CVarArgP", "MovieDetail"]
 - !private ["s7CVarArgP", "MovieList"]
+- !private ["s7CVarArgP", "MovieVideos"]
 - !private ["s7CVarArgP", "NetworkHandler"]
 - !private ["s7CVarArgP", "RequestCreator"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "getResponce"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "movieCreditsURL"]
+- !private ["s7CVarArgP", "movieDetailURL"]
+- !private ["s7CVarArgP", "movieVideosURL"]
+- !private ["s7CVarArgP", "moviesInTheaterURL"]
 - !private ["s7CVarArgP", "sharedInstance"]
-- !private ["s7CVarArgP", "topRatedMoviesURL"]
 - !private ["s28CustomDebugStringConvertibleP", "JSONDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "MovieCredits"]
+- !private ["s28CustomDebugStringConvertibleP", "MovieDetail"]
 - !private ["s28CustomDebugStringConvertibleP", "MovieList"]
+- !private ["s28CustomDebugStringConvertibleP", "MovieVideos"]
 - !private ["s28CustomDebugStringConvertibleP", "NetworkHandler"]
 - !private ["s28CustomDebugStringConvertibleP", "RequestCreator"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "getResponce"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "movieCreditsURL"]
+- !private ["s28CustomDebugStringConvertibleP", "movieDetailURL"]
+- !private ["s28CustomDebugStringConvertibleP", "movieVideosURL"]
+- !private ["s28CustomDebugStringConvertibleP", "moviesInTheaterURL"]
 - !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
-- !private ["s28CustomDebugStringConvertibleP", "topRatedMoviesURL"]
 - !private ["s23CustomStringConvertibleP", "JSONDecoder"]
+- !private ["s23CustomStringConvertibleP", "MovieCredits"]
+- !private ["s23CustomStringConvertibleP", "MovieDetail"]
 - !private ["s23CustomStringConvertibleP", "MovieList"]
+- !private ["s23CustomStringConvertibleP", "MovieVideos"]
 - !private ["s23CustomStringConvertibleP", "NetworkHandler"]
 - !private ["s23CustomStringConvertibleP", "RequestCreator"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "getResponce"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "movieCreditsURL"]
+- !private ["s23CustomStringConvertibleP", "movieDetailURL"]
+- !private ["s23CustomStringConvertibleP", "movieVideosURL"]
+- !private ["s23CustomStringConvertibleP", "moviesInTheaterURL"]
 - !private ["s23CustomStringConvertibleP", "sharedInstance"]
-- !private ["s23CustomStringConvertibleP", "topRatedMoviesURL"]
 - !private ["SQ", "JSONDecoder"]
+- !private ["SQ", "MovieCredits"]
+- !private ["SQ", "MovieDetail"]
 - !private ["SQ", "MovieList"]
+- !private ["SQ", "MovieVideos"]
 - !private ["SQ", "NetworkHandler"]
 - !private ["SQ", "RequestCreator"]
 - ["SQ", ""]
 - !private ["SQ", "getResponce"]
 - !private ["SQ", "init"]
 - !private ["SQ", "init"]
+- !private ["SQ", "movieCreditsURL"]
+- !private ["SQ", "movieDetailURL"]
+- !private ["SQ", "movieVideosURL"]
+- !private ["SQ", "moviesInTheaterURL"]
 - !private ["SQ", "sharedInstance"]
-- !private ["SQ", "topRatedMoviesURL"]
 - !private ["SH", "JSONDecoder"]
+- !private ["SH", "MovieCredits"]
+- !private ["SH", "MovieDetail"]
 - !private ["SH", "MovieList"]
+- !private ["SH", "MovieVideos"]
 - !private ["SH", "NetworkHandler"]
 - !private ["SH", "RequestCreator"]
 - ["SH", ""]
 - !private ["SH", "getResponce"]
 - !private ["SH", "init"]
 - !private ["SH", "init"]
+- !private ["SH", "movieCreditsURL"]
+- !private ["SH", "movieDetailURL"]
+- !private ["SH", "movieVideosURL"]
+- !private ["SH", "moviesInTheaterURL"]
 - !private ["SH", "sharedInstance"]
-- !private ["SH", "topRatedMoviesURL"]
 - !private ["10Foundation11JSONDecoderC", "decode"]
 - !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["7ApiTest12MovieCreditsV", "deinit"]
+- !private ["7ApiTest11MovieDetailV", "deinit"]
 - !private ["7ApiTest9MovieListV", "deinit"]
+- !private ["7ApiTest11MovieVideosV", "deinit"]
+- ["So8NSObjectC", "Int"]
 - !private ["So8NSObjectC", "JSONDecoder"]
+- ["So8NSObjectC", "MovieCredits"]
+- ["So8NSObjectC", "MovieDetail"]
 - ["So8NSObjectC", "MovieList"]
+- ["So8NSObjectC", "MovieVideos"]
 - !private ["So8NSObjectC", "NetworkHandler"]
 - ["So8NSObjectC", "RequestCreator"]
+- ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "Void"]
 - ["So8NSObjectC", ""]
+- ["So8NSObjectC", "callRequestForMoviesCredits"]
+- ["So8NSObjectC", "callRequestForMoviesDetail"]
 - ["So8NSObjectC", "callRequestForMoviesList"]
+- ["So8NSObjectC", "callRequestForMoviesVideos"]
 - !private ["So8NSObjectC", "getResponce"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "movieCreditsURL"]
+- !private ["So8NSObjectC", "movieDetailURL"]
+- !private ["So8NSObjectC", "movieVideosURL"]
+- !private ["So8NSObjectC", "moviesInTheaterURL"]
 - ["So8NSObjectC", "shared"]
 - !private ["So8NSObjectC", "sharedInstance"]
-- !private ["So8NSObjectC", "topRatedMoviesURL"]
 - !private ["So8NSObjectP", "JSONDecoder"]
+- !private ["So8NSObjectP", "MovieCredits"]
+- !private ["So8NSObjectP", "MovieDetail"]
 - !private ["So8NSObjectP", "MovieList"]
+- !private ["So8NSObjectP", "MovieVideos"]
 - !private ["So8NSObjectP", "NetworkHandler"]
 - !private ["So8NSObjectP", "RequestCreator"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "getResponce"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "movieCreditsURL"]
+- !private ["So8NSObjectP", "movieDetailURL"]
+- !private ["So8NSObjectP", "movieVideosURL"]
+- !private ["So8NSObjectP", "moviesInTheaterURL"]
 - !private ["So8NSObjectP", "sharedInstance"]
-- !private ["So8NSObjectP", "topRatedMoviesURL"]
 - !private ["7ApiTest14NetworkHandlerC", "getResponce"]
 - !private ["7ApiTest14NetworkHandlerC", "sharedInstance"]
+- ["7ApiTest14RequestCreatorC", "Int"]
 - !private ["7ApiTest14RequestCreatorC", "JSONDecoder"]
+- ["7ApiTest14RequestCreatorC", "MovieCredits"]
+- ["7ApiTest14RequestCreatorC", "MovieDetail"]
 - ["7ApiTest14RequestCreatorC", "MovieList"]
+- ["7ApiTest14RequestCreatorC", "MovieVideos"]
 - !private ["7ApiTest14RequestCreatorC", "NetworkHandler"]
 - ["7ApiTest14RequestCreatorC", "RequestCreator"]
+- ["7ApiTest14RequestCreatorC", "String"]
 - ["7ApiTest14RequestCreatorC", "Void"]
+- ["7ApiTest14RequestCreatorC", "callRequestForMoviesCredits"]
+- ["7ApiTest14RequestCreatorC", "callRequestForMoviesDetail"]
 - ["7ApiTest14RequestCreatorC", "callRequestForMoviesList"]
+- ["7ApiTest14RequestCreatorC", "callRequestForMoviesVideos"]
 - ["7ApiTest14RequestCreatorC", "init"]
+- !private ["7ApiTest14RequestCreatorC", "movieCreditsURL"]
+- !private ["7ApiTest14RequestCreatorC", "movieDetailURL"]
+- !private ["7ApiTest14RequestCreatorC", "movieVideosURL"]
+- !private ["7ApiTest14RequestCreatorC", "moviesInTheaterURL"]
 - ["7ApiTest14RequestCreatorC", "shared"]
-- !private ["7ApiTest14RequestCreatorC", "topRatedMoviesURL"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONDecoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MovieCredits"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MovieDetail"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "MovieList"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MovieVideos"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NetworkHandler"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "RequestCreator"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "getResponce"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "movieCreditsURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "movieDetailURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "movieVideosURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "moviesInTheaterURL"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "topRatedMoviesURL"]
 depends-nominal:
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
@@ -121,7 +196,10 @@ depends-nominal:
 - "SQ"
 - "SH"
 - !private "10Foundation11JSONDecoderC"
+- !private "7ApiTest12MovieCreditsV"
+- !private "7ApiTest11MovieDetailV"
 - !private "7ApiTest9MovieListV"
+- !private "7ApiTest11MovieVideosV"
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "7ApiTest14NetworkHandlerC"
@@ -130,6 +208,7 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/pradeepdahiya/Desktop/ApiTest/DerivedData/Build/Products/Production-iphoneos/UICircularProgressRing/UICircularProgressRing.framework/Modules/UICircularProgressRing.swiftmodule/arm64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
@@ -142,6 +221,13 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/pradeepdahiya/Desktop/ApiTest/DerivedData/Build/Products/Production-iphoneos/UICircularProgressRing/UICircularProgressRing.framework/Headers/UICircularProgressRing-umbrella.h"
+- "/Users/pradeepdahiya/Desktop/ApiTest/DerivedData/Build/Products/Production-iphoneos/YoutubePlayer-in-WKWebView/YoutubePlayer_in_WKWebView.framework/Headers/YoutubePlayer-in-WKWebView-umbrella.h"
+- "/Users/pradeepdahiya/Desktop/ApiTest/DerivedData/Build/Products/Production-iphoneos/UICircularProgressRing/UICircularProgressRing.framework/Headers/UICircularProgressRing.h"
+- "/Users/pradeepdahiya/Desktop/ApiTest/DerivedData/Build/Products/Production-iphoneos/UICircularProgressRing/UICircularProgressRing.framework/Headers/UICircularProgressRing-Swift.h"
+- "/Users/pradeepdahiya/Desktop/ApiTest/DerivedData/Build/Products/Production-iphoneos/YoutubePlayer-in-WKWebView/YoutubePlayer_in_WKWebView.framework/Headers/WKYTPlayerView.h"
+- "/Users/pradeepdahiya/Desktop/ApiTest/DerivedData/Build/Products/Production-iphoneos/UICircularProgressRing/UICircularProgressRing.framework/Modules/module.modulemap"
+- "/Users/pradeepdahiya/Desktop/ApiTest/DerivedData/Build/Products/Production-iphoneos/YoutubePlayer-in-WKWebView/YoutubePlayer_in_WKWebView.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -151,6 +237,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "82faa6eb3df5665c50c22ce0021aee8e"
+interface-hash: "4e37a366037ad7a187f00767f9a9b84c"

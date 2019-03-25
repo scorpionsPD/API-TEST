@@ -30,7 +30,10 @@ class var sharedInstance:NetworkHandler{
         getData(from: url) { data, response, error in
             guard let data = data, error == nil else { return }
             print(response?.suggestedFilename ?? url.lastPathComponent)
-            completion(UIImage(data: data)!)
+            if let image = UIImage(data: data){
+                completion(image)
+            }
+            
         }
     }
     func getData(from url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {

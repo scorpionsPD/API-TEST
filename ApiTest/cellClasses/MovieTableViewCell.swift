@@ -14,8 +14,6 @@ class MovieTableViewCell: UITableViewCell {
     let labUerName = UILabel()
     let labMessage = UILabel()
     let labTime = UILabel()
-    
-    
     var message : String?
     var mainImage : UIImage?
     
@@ -45,7 +43,6 @@ class MovieTableViewCell: UITableViewCell {
         if let image = mainImage {
             self.mainImageView.image = image
         }
-        
     }
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {

@@ -3,8 +3,11 @@
 <plist version="1.0">
 <array>
 	<string>Foundation</string>
+	<string>YoutubePlayer</string>
+	<string>XCTest</string>
+	<string>WebKit</string>
 	<string>ApiTest</string>
 	<string>UIKit</string>
-	<string>XCTest</string>
+	<string>UICircularProgressRing</string>
 </array>
 </plist>

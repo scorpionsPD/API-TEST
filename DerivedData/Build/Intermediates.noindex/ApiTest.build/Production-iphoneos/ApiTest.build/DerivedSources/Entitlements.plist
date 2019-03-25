@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>NGWD85J6N2.DeviceID.ApiTest</string>
+	<string>NGWD85J6N2.com.ApiTest.setup</string>
 	<key>com.apple.developer.team-identifier</key>
 	<string>NGWD85J6N2</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>NGWD85J6N2.DeviceID.ApiTest</string>
+		<string>NGWD85J6N2.com.ApiTest.setup</string>
 	</array>
 </dict>
 </plist>

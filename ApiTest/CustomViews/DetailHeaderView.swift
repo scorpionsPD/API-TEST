@@ -18,10 +18,14 @@ class DetailHeaderView: UIView {
     }
     */
     
+    var banerImage: UIImage?
+    var movieData: MovieDetail?
+    
     var bannerView: UIImageView = {
         let baner = UIImageView()
         baner.backgroundColor = UIColor.gray
-        //baner.autoSetDimension(.height, toSize: MAX_WIDTH / 3)
+        baner.frame = CGRect(x: 0, y: 0, width: MAX_WIDTH, height: MAX_WIDTH)
+        baner.addBlurEffect()
         return baner
         
         
@@ -41,8 +45,20 @@ class DetailHeaderView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         //self.addSubview(bannerView)
+        self.addSubview(bannerView)
         self.addSubview(profileView)
         self.backgroundColor = UIColor.red
+    }
+    
+    override func layoutSubviews() {
+        if let data = movieData{
+            NetworkHandler.sharedInstance.downloadImage(from: posterURL(posterPath: data.posterPath)) { (posterImage) in
+                DispatchQueue.main.async {
+                    self.bannerView.image = posterImage
+                    self.profileView.image = posterImage
+                }
+            }
+        }
     }
     
     required init?(coder aDecoder: NSCoder) {

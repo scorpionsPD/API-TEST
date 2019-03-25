@@ -1,16 +1,7 @@
 import Foundation
 struct MovieList: Codable {
-    let page, totalResults, totalPages: Int
     let results: [Result]
-
-    enum CodingKeys: String, CodingKey {
-        case page
-        case totalResults = "total_results"
-        case totalPages = "total_pages"
-        case results
-    }
 }
-
 struct Result: Codable {
     let voteCount, id: Int
     let video: Bool
@@ -19,7 +10,7 @@ struct Result: Codable {
     let popularity: Double
     let posterPath, originalLanguage, originalTitle: String
     let genreIDS: [Int]
-    let backdropPath: String
+    let backdropPath: String?
     let adult: Bool
     let overview, releaseDate: String
 
@@ -93,5 +84,6 @@ extension Result {
         return String(data: data, encoding: .utf8)
     }
 }
+
 
 
