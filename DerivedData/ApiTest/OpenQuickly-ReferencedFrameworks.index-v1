@@ -4,10 +4,10 @@
 <array>
 	<string>Foundation</string>
 	<string>YoutubePlayer</string>
-	<string>XCTest</string>
+	<string>UICircularProgressRing</string>
 	<string>WebKit</string>
 	<string>ApiTest</string>
 	<string>UIKit</string>
-	<string>UICircularProgressRing</string>
+	<string>XCTest</string>
 </array>
 </plist>

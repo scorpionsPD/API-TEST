@@ -8,24 +8,23 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "=="
-- !private "??"
+- "AnyObject"
+- "CastingPrecedence"
 - "Data"
 - "Error"
+- "NSCache"
 - "NSObject"
 - "NetworkHandler"
 - "String"
-- !private "StringLiteralType"
 - "UIImage"
 - "URL"
 - !private "URLRequest"
 - "URLResponse"
 - !private "URLSession"
 - "Void"
-- !private "print"
 depends-member:
-- !private ["SK", "init"]
-- !private ["SK", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "NSCache"]
 - !private ["s7CVarArgP", "NetworkHandler"]
 - !private ["s7CVarArgP", "UIImage"]
 - !private ["s7CVarArgP", "URL"]
@@ -35,16 +34,14 @@ depends-member:
 - !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "dataTask"]
 - !private ["s7CVarArgP", "getData"]
+- !private ["s7CVarArgP", "imageCache"]
+- ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
-- !private ["s7CVarArgP", "init"]
-- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "object"]
 - !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "setObject"]
 - !private ["s7CVarArgP", "shared"]
-- !private ["s7CVarArgP", "suggestedFilename"]
-- !private ["Sl", "init"]
-- !private ["Sl", "init"]
-- !private ["SL", "init"]
-- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "NSCache"]
 - !private ["s28CustomDebugStringConvertibleP", "NetworkHandler"]
 - !private ["s28CustomDebugStringConvertibleP", "UIImage"]
 - !private ["s28CustomDebugStringConvertibleP", "URL"]
@@ -53,20 +50,19 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "dataTask"]
 - !private ["s28CustomDebugStringConvertibleP", "getData"]
+- !private ["s28CustomDebugStringConvertibleP", "imageCache"]
+- ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
-- !private ["s28CustomDebugStringConvertibleP", "init"]
-- !private ["s28CustomDebugStringConvertibleP", "lastPathComponent"]
-- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "object"]
 - !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "setObject"]
 - !private ["s28CustomDebugStringConvertibleP", "shared"]
-- !private ["s28CustomDebugStringConvertibleP", "suggestedFilename"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
-- !private ["s29CustomPlaygroundQuickLookableP", "init"]
-- !private ["s29CustomPlaygroundQuickLookableP", "lastPathComponent"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "NSCache"]
 - !private ["s23CustomStringConvertibleP", "NetworkHandler"]
 - !private ["s23CustomStringConvertibleP", "UIImage"]
 - !private ["s23CustomStringConvertibleP", "URL"]
@@ -76,21 +72,18 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "dataTask"]
 - !private ["s23CustomStringConvertibleP", "getData"]
+- !private ["s23CustomStringConvertibleP", "imageCache"]
+- ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "init"]
-- !private ["s23CustomStringConvertibleP", "init"]
-- !private ["s23CustomStringConvertibleP", "lastPathComponent"]
-- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "object"]
 - !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "setObject"]
 - !private ["s23CustomStringConvertibleP", "shared"]
-- !private ["s23CustomStringConvertibleP", "suggestedFilename"]
 - !private ["Se", "_getBuiltinLogicValue"]
 - !private ["Se", "init"]
-- !private ["Se", "init"]
-- !private ["Se", "lastPathComponent"]
 - !private ["SE", "_getBuiltinLogicValue"]
 - !private ["SE", "init"]
-- !private ["SE", "init"]
-- !private ["SE", "lastPathComponent"]
+- ["SQ", "NSCache"]
 - !private ["SQ", "NetworkHandler"]
 - !private ["SQ", "UIImage"]
 - !private ["SQ", "URL"]
@@ -100,20 +93,15 @@ depends-member:
 - !private ["SQ", "_getBuiltinLogicValue"]
 - !private ["SQ", "dataTask"]
 - !private ["SQ", "getData"]
+- !private ["SQ", "imageCache"]
+- ["SQ", "init"]
 - !private ["SQ", "init"]
-- !private ["SQ", "init"]
-- !private ["SQ", "lastPathComponent"]
-- !private ["SQ", "print"]
+- !private ["SQ", "object"]
 - !private ["SQ", "resume"]
+- !private ["SQ", "setObject"]
 - !private ["SQ", "shared"]
-- !private ["SQ", "suggestedFilename"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", "init"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "NSCache"]
 - !private ["SH", "NetworkHandler"]
 - !private ["SH", "UIImage"]
 - !private ["SH", "URL"]
@@ -123,26 +111,25 @@ depends-member:
 - !private ["SH", "_getBuiltinLogicValue"]
 - !private ["SH", "dataTask"]
 - !private ["SH", "getData"]
+- !private ["SH", "imageCache"]
+- ["SH", "init"]
 - !private ["SH", "init"]
-- !private ["SH", "init"]
-- !private ["SH", "lastPathComponent"]
-- !private ["SH", "print"]
+- !private ["SH", "object"]
 - !private ["SH", "resume"]
+- !private ["SH", "setObject"]
 - !private ["SH", "shared"]
-- !private ["SH", "suggestedFilename"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
-- !private ["s25LosslessStringConvertibleP", "init"]
-- !private ["s25LosslessStringConvertibleP", "init"]
-- !private ["s10MirrorPathP", "init"]
-- !private ["s10MirrorPathP", "init"]
+- ["So7NSCacheC", "init"]
+- !private ["So7NSCacheC", "object"]
+- !private ["So7NSCacheC", "setObject"]
 - !private ["So8NSCodingP", "init"]
-- !private ["So8NSCodingP", "suggestedFilename"]
 - !private ["So9NSCopyingP", "resume"]
-- !private ["So9NSCopyingP", "suggestedFilename"]
 - !private ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "AnyObject"]
 - ["So8NSObjectC", "Data"]
 - ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "NSCache"]
 - ["So8NSObjectC", "NetworkHandler"]
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "UIImage"]
@@ -156,13 +143,15 @@ depends-member:
 - ["So8NSObjectC", "downloadImage"]
 - ["So8NSObjectC", "getData"]
 - ["So8NSObjectC", "getResponce"]
+- ["So8NSObjectC", "imageCache"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "init"]
-- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "object"]
 - !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setObject"]
 - !private ["So8NSObjectC", "shared"]
 - ["So8NSObjectC", "sharedInstance"]
-- !private ["So8NSObjectC", "suggestedFilename"]
+- ["So8NSObjectP", "NSCache"]
 - !private ["So8NSObjectP", "NetworkHandler"]
 - !private ["So8NSObjectP", "UIImage"]
 - !private ["So8NSObjectP", "URL"]
@@ -171,16 +160,18 @@ depends-member:
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "dataTask"]
 - !private ["So8NSObjectP", "getData"]
+- !private ["So8NSObjectP", "imageCache"]
+- ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "init"]
-- !private ["So8NSObjectP", "init"]
-- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "object"]
 - !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "setObject"]
 - !private ["So8NSObjectP", "shared"]
-- !private ["So8NSObjectP", "suggestedFilename"]
 - !private ["So14NSSecureCodingP", "init"]
-- !private ["So14NSSecureCodingP", "suggestedFilename"]
+- ["7ApiTest14NetworkHandlerC", "AnyObject"]
 - ["7ApiTest14NetworkHandlerC", "Data"]
 - ["7ApiTest14NetworkHandlerC", "Error"]
+- ["7ApiTest14NetworkHandlerC", "NSCache"]
 - ["7ApiTest14NetworkHandlerC", "NetworkHandler"]
 - ["7ApiTest14NetworkHandlerC", "String"]
 - ["7ApiTest14NetworkHandlerC", "UIImage"]
@@ -189,55 +180,29 @@ depends-member:
 - ["7ApiTest14NetworkHandlerC", "URLResponse"]
 - !private ["7ApiTest14NetworkHandlerC", "URLSession"]
 - ["7ApiTest14NetworkHandlerC", "Void"]
-- ["7ApiTest14NetworkHandlerC", "deinit"]
 - ["7ApiTest14NetworkHandlerC", "downloadImage"]
 - ["7ApiTest14NetworkHandlerC", "getData"]
 - ["7ApiTest14NetworkHandlerC", "getResponce"]
+- ["7ApiTest14NetworkHandlerC", "imageCache"]
 - ["7ApiTest14NetworkHandlerC", "init"]
-- !private ["7ApiTest14NetworkHandlerC", "print"]
 - ["7ApiTest14NetworkHandlerC", "sharedInstance"]
 - !private ["So19NSProgressReportingP", "resume"]
-- !private ["Sm", "init"]
-- !private ["Sm", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
-- !private ["10Foundation20ReferenceConvertibleP", "lastPathComponent"]
-- !private ["ST", "init"]
-- !private ["ST", "init"]
-- !private ["SS", "init"]
-- !private ["SS", "init"]
-- !private ["Sy", "init"]
-- !private ["Sy", "init"]
-- !private ["s16TextOutputStreamP", "init"]
-- !private ["s16TextOutputStreamP", "init"]
-- !private ["s20TextOutputStreamableP", "init"]
-- !private ["s20TextOutputStreamableP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So7UIImageC", "init"]
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
 - !private ["10Foundation3URLV", "init"]
-- !private ["10Foundation3URLV", "lastPathComponent"]
 - !private ["10Foundation10URLRequestV", "init"]
 - !private ["10Foundation10URLRequestV", "init"]
-- !private ["So13NSURLResponseC", "suggestedFilename"]
 - !private ["So12NSURLSessionC", "dataTask"]
 - !private ["So12NSURLSessionC", "shared"]
 - !private ["So20NSURLSessionDataTaskC", "resume"]
 - !private ["So16NSURLSessionTaskC", "resume"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
-- !private ["s34_ExpressibleByFileReferenceLiteralP", "lastPathComponent"]
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
-- !private ["s33_ExpressibleByStringInterpolationP", "init"]
-- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NSCache"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NetworkHandler"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
@@ -246,24 +211,19 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "getData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageCache"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "object"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setObject"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "suggestedFilename"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
-- !private ["s21_ObjectiveCBridgeableP", "lastPathComponent"]
-- !private ["s16_SwiftStringViewP", "init"]
-- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
-- !private "SK"
 - !private "Sb"
 - "s7CVarArgP"
-- !private "Sl"
-- !private "SL"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
@@ -272,12 +232,9 @@ depends-nominal:
 - !private "SE"
 - "SQ"
 - !private "s27ExpressibleByBooleanLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
 - !private "s25LosslessStringConvertibleP"
-- !private "s10MirrorPathP"
+- "So7NSCacheC"
 - !private "So8NSCodingP"
 - !private "So9NSCopyingP"
 - !private "So21NSItemProviderReadingP"
@@ -287,33 +244,20 @@ depends-nominal:
 - !private "So14NSSecureCodingP"
 - "7ApiTest14NetworkHandlerC"
 - !private "So19NSProgressReportingP"
-- !private "Sm"
 - !private "10Foundation20ReferenceConvertibleP"
-- !private "ST"
-- !private "SS"
-- !private "Sy"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So7UIImageC"
 - !private "So39UIItemProviderPresentationSizeProvidingP"
 - !private "10Foundation3URLV"
 - !private "10Foundation10URLRequestV"
-- !private "So13NSURLResponseC"
 - !private "So12NSURLSessionC"
 - !private "So20NSURLSessionDataTaskC"
 - !private "So16NSURLSessionTaskC"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
-- !private "s33_ExpressibleByStringInterpolationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
-- !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
@@ -349,4 +293,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "10aa9d85f77df0b2d081ca61827f19af"
+interface-hash: "dba37972d63b026551ae00e6698d0857"

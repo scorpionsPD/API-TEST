@@ -163,10 +163,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # define SWIFT_DEPRECATED_OBJC(Msg) SWIFT_DEPRECATED_MSG(Msg)
 #endif
 #if __has_feature(modules)
-@import CoreGraphics;
 @import Foundation;
 @import ObjectiveC;
-@import UICircularProgressRing;
 @import UIKit;
 #endif
 
@@ -213,49 +211,87 @@ SWIFT_CLASS("_TtC7ApiTest9BaseClass")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
+@class UILabel;
 
-SWIFT_CLASS("_TtC7ApiTest21CastingViewController")
-@interface CastingViewController : UIViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS("_TtC7ApiTest21CastCrewTableViewCell")
+@interface CastCrewTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profileImage;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified realName;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified charecterName;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-SWIFT_CLASS("_TtC7ApiTest17CreditsDataSource")
-@interface CreditsDataSource : NSObject
+SWIFT_CLASS("_TtC7ApiTest16DetailDataSource")
+@interface DetailDataSource : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 @class UITableView;
-@class UITableViewCell;
 
-@interface CreditsDataSource (SWIFT_EXTENSION(ApiTest)) <UITableViewDataSource>
+@interface DetailDataSource (SWIFT_EXTENSION(ApiTest)) <UITableViewDataSource>
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
-SWIFT_CLASS("_TtC7ApiTest20CreditsTableViewCell")
-@interface CreditsTableViewCell : UITableViewCell
+SWIFT_CLASS("_TtC7ApiTest20HomeScreenDataSource")
+@interface HomeScreenDataSource : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+
+@interface HomeScreenDataSource (SWIFT_EXTENSION(ApiTest)) <UITableViewDataSource>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS("_TtC7ApiTest12HomeScreenVC")
+@interface HomeScreenVC : UIViewController
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified listingTableView;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7ApiTest26MovieDetailsViewController") SWIFT_AVAILABILITY(ios,introduced=12.0)
+@interface MovieDetailsViewController : UITableViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=12.0);
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=12.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=12.0);
+@end
+
+@class UITextView;
+
+SWIFT_CLASS("_TtC7ApiTest15MovieHeaderCell")
+@interface MovieHeaderCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified moviePoster;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified movieName;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified movieGenre;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified releasedate;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified movieOverview;
 - (void)awakeFromNib;
-- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
-@end
-
-
-SWIFT_CLASS("_TtC7ApiTest16DetailHeaderView")
-@interface DetailHeaderView : UIView
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (void)layoutSubviews;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-SWIFT_CLASS("_TtC7ApiTest19HeaderViewTableCell")
-@interface HeaderViewTableCell : UITableViewCell
+SWIFT_CLASS("_TtC7ApiTest22MovieListTableViewCell")
+@interface MovieListTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified mainImage;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified originalTitle;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
@@ -264,54 +300,39 @@ SWIFT_CLASS("_TtC7ApiTest19HeaderViewTableCell")
 
 @class UISegmentedControl;
 
-SWIFT_CLASS("_TtC7ApiTest26MovieDetailsViewController") SWIFT_AVAILABILITY(ios,introduced=12.0)
-@interface MovieDetailsViewController : BaseClass
-- (void)viewDidLoad;
-- (void)viewWillAppear:(BOOL)animated;
-- (void)indexChanged:(UISegmentedControl * _Nonnull)sender;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=12.0);
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=12.0);
-@end
-
-
 SWIFT_CLASS("_TtC7ApiTest23MovieListViewController")
 @interface MovieListViewController : UITableViewController
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (void)selectedSegment:(UISegmentedControl * _Nonnull)sender;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class WKYTPlayerView;
 
-@interface MovieListViewController (SWIFT_EXTENSION(ApiTest))
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-- (void)tableView:(UITableView * _Nonnull)tableView willDisplayCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+SWIFT_CLASS("_TtC7ApiTest24MovieVideosTableViewCell")
+@interface MovieVideosTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet WKYTPlayerView * _Null_unspecified videoPreview;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified videoTitle;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-SWIFT_CLASS("_TtC7ApiTest18MovieTableViewCell")
-@interface MovieTableViewCell : UITableViewCell
-- (void)layoutSubviews;
-- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS("_TtC7ApiTest14MovieViewModal")
+@interface MovieViewModal : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 SWIFT_CLASS("_TtC7ApiTest14NetworkHandler")
 @interface NetworkHandler : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC7ApiTest10RatingView")
-@interface RatingView : UICircularProgressRing
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)layoutSubviews;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 
@@ -327,28 +348,6 @@ SWIFT_CLASS("_TtC7ApiTest14RequestCreator")
 
 
 
-
-
-SWIFT_CLASS("_TtC7ApiTest16VideosDataSource")
-@interface VideosDataSource : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
-@end
-
-
-@interface VideosDataSource (SWIFT_EXTENSION(ApiTest)) <UITableViewDataSource>
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-SWIFT_CLASS("_TtC7ApiTest19VideosTableViewCell")
-@interface VideosTableViewCell : UITableViewCell
-- (void)awakeFromNib;
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
-- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
 
 
 SWIFT_CLASS("_TtC7ApiTest20VideosViewController")

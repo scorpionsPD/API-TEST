@@ -6,7 +6,76 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>51A5BE01-7ABC-4267-9804-623EED1E7114</key>
+		<key>154CE603-1A08-4363-8809-EBA4CC598404</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>154CE603-1A08-4363-8809-EBA4CC598404.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>YoutubePlayer-in-WKWebView-bwvoxpszorxdmyglmkcghomzoqxo</string>
+			<key>timeStartedRecording</key>
+			<real>576073382.39789999</real>
+			<key>timeStoppedRecording</key>
+			<real>576073382.44015801</real>
+			<key>title</key>
+			<string>Build target YoutubePlayer-in-WKWebView</string>
+			<key>uniqueIdentifier</key>
+			<string>154CE603-1A08-4363-8809-EBA4CC598404</string>
+		</dict>
+		<key>27863386-C944-4EE2-ADB5-04449F8D4BC2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>27863386-C944-4EE2-ADB5-04449F8D4BC2.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Pods-ApiTest-bwvoxpszorxdmyglmkcghomzoqxo</string>
+			<key>timeStartedRecording</key>
+			<real>576059316.79519498</real>
+			<key>timeStoppedRecording</key>
+			<real>576059317.40881395</real>
+			<key>title</key>
+			<string>Build target Pods-ApiTest</string>
+			<key>uniqueIdentifier</key>
+			<string>27863386-C944-4EE2-ADB5-04449F8D4BC2</string>
+		</dict>
+		<key>3D69D3C6-22C9-400F-B59A-EEE6CA831FDF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>3D69D3C6-22C9-400F-B59A-EEE6CA831FDF.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>UICircularProgressRing-bwvoxpszorxdmyglmkcghomzoqxo</string>
+			<key>timeStartedRecording</key>
+			<real>576059313.36757696</real>
+			<key>timeStoppedRecording</key>
+			<real>576059317.31381094</real>
+			<key>title</key>
+			<string>Build target UICircularProgressRing</string>
+			<key>uniqueIdentifier</key>
+			<string>3D69D3C6-22C9-400F-B59A-EEE6CA831FDF</string>
+		</dict>
+		<key>B3EA6054-FB09-4ECF-A429-8D08EACB3672</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,88 +84,19 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>51A5BE01-7ABC-4267-9804-623EED1E7114.xcactivitylog</string>
+			<string>B3EA6054-FB09-4ECF-A429-8D08EACB3672.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>signature</key>
 			<string>ApiTest-bkkikdsunhmosxemkyxooskoooyo</string>
 			<key>timeStartedRecording</key>
-			<real>575201547.208709</real>
+			<real>576073382.45916295</real>
 			<key>timeStoppedRecording</key>
-			<real>575201555.20637906</real>
+			<real>576073390.73915195</real>
 			<key>title</key>
 			<string>Build target ApiTest</string>
 			<key>uniqueIdentifier</key>
-			<string>51A5BE01-7ABC-4267-9804-623EED1E7114</string>
-		</dict>
-		<key>5E662C19-5D64-4D85-A45B-A2037BDD7049</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>5E662C19-5D64-4D85-A45B-A2037BDD7049.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>UICircularProgressRing-bwvoxpszorxdmyglmkcghomzoqxo</string>
-			<key>timeStartedRecording</key>
-			<real>575201477.31714106</real>
-			<key>timeStoppedRecording</key>
-			<real>575201477.37041199</real>
-			<key>title</key>
-			<string>Build target UICircularProgressRing</string>
-			<key>uniqueIdentifier</key>
-			<string>5E662C19-5D64-4D85-A45B-A2037BDD7049</string>
-		</dict>
-		<key>720C325D-1EAC-4918-811E-649B9F274237</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>720C325D-1EAC-4918-811E-649B9F274237.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>Pods-ApiTest-bwvoxpszorxdmyglmkcghomzoqxo</string>
-			<key>timeStartedRecording</key>
-			<real>575201477.393888</real>
-			<key>timeStoppedRecording</key>
-			<real>575201477.40313005</real>
-			<key>title</key>
-			<string>Build target Pods-ApiTest</string>
-			<key>uniqueIdentifier</key>
-			<string>720C325D-1EAC-4918-811E-649B9F274237</string>
-		</dict>
-		<key>8BCCF7BD-7246-46D2-911D-400FF1A52A84</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>8BCCF7BD-7246-46D2-911D-400FF1A52A84.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>YoutubePlayer-in-WKWebView-bwvoxpszorxdmyglmkcghomzoqxo</string>
-			<key>timeStartedRecording</key>
-			<real>575201477.37164998</real>
-			<key>timeStoppedRecording</key>
-			<real>575201477.39036202</real>
-			<key>title</key>
-			<string>Build target YoutubePlayer-in-WKWebView</string>
-			<key>uniqueIdentifier</key>
-			<string>8BCCF7BD-7246-46D2-911D-400FF1A52A84</string>
+			<string>B3EA6054-FB09-4ECF-A429-8D08EACB3672</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

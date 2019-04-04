@@ -8,11 +8,10 @@
 
 import Foundation
 
-let baseURL = "https://api.themoviedb.org/3/movie/"
-let baseImageURL  = "https://image.tmdb.org/t/p/w500"
-let APIKey = "api_key=f381b2ca5c59e33c296288b03a412294"
+let baseURL          =      "https://api.themoviedb.org/3/movie/"
+let baseImageURL     =      "https://image.tmdb.org/t/p/w500"
+let APIKey           =      "api_key=f381b2ca5c59e33c296288b03a412294"
 
-let topRatedMoviesURL = "\(baseURL)top_rated?api_key=f381b2ca5c59e33c296288b03a412294"
 //let moviesInTheaterURL:String = {
 //    var url = String()
 //
@@ -27,7 +26,6 @@ let upcomingMoviesURL = "\(baseURL)upcoming?api_key=f381b2ca5c59e33c296288b03a41
 let posterURL = URL(string: "\(baseImageURL)")
 
 func moviesInTheaterURL(region:String) -> String{
-    print("\(baseURL)now_playing?" + APIKey + "&region=\(region)")
     return "\(baseURL)now_playing?" + APIKey + "&region=\(region)"
 }
 

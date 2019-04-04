@@ -26,9 +26,6 @@ struct MovieVideos: Codable {
         }
     }
 }
-
-
-
 // MARK: Convenience initializers
 
 extension MovieVideos {

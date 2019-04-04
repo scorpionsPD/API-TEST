@@ -1,15 +1,18 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "MovieList"
+- "Dates"
 - "Result"
 provides-nominal:
 - "7ApiTest9MovieListV"
 - "7ApiTest9MovieListV10CodingKeysO"
+- "7ApiTest5DatesV"
 - "7ApiTest6ResultV"
 - "7ApiTest6ResultV10CodingKeysO"
 provides-member:
 - ["7ApiTest9MovieListV", ""]
 - ["7ApiTest9MovieListV10CodingKeysO", ""]
+- ["7ApiTest5DatesV", ""]
 - ["7ApiTest6ResultV", ""]
 - ["7ApiTest6ResultV10CodingKeysO", ""]
 - ["7ApiTest9MovieListV", "init"]
@@ -17,6 +20,11 @@ provides-member:
 - ["7ApiTest9MovieListV", "init"]
 - ["7ApiTest9MovieListV", "jsonData"]
 - ["7ApiTest9MovieListV", "json"]
+- ["7ApiTest5DatesV", "init"]
+- ["7ApiTest5DatesV", "init"]
+- ["7ApiTest5DatesV", "init"]
+- ["7ApiTest5DatesV", "jsonData"]
+- ["7ApiTest5DatesV", "json"]
 - ["7ApiTest6ResultV", "init"]
 - ["7ApiTest6ResultV", "init"]
 - ["7ApiTest6ResultV", "init"]
@@ -31,6 +39,7 @@ depends-top-level:
 - "Codable"
 - "CodingKey"
 - "Data"
+- "Dates"
 - "Double"
 - !private "FloatLiteralType"
 - "Int"
@@ -76,6 +85,7 @@ depends-member:
 - !private ["7ApiTest9MovieListV10CodingKeysO", "_findStringSwitchCase"]
 - ["7ApiTest6ResultV10CodingKeysO", "adult"]
 - ["7ApiTest6ResultV10CodingKeysO", "backdropPath"]
+- ["7ApiTest9MovieListV10CodingKeysO", "dates"]
 - ["7ApiTest6ResultV10CodingKeysO", "debugDescription"]
 - ["7ApiTest9MovieListV10CodingKeysO", "debugDescription"]
 - ["7ApiTest6ResultV10CodingKeysO", "deinit"]
@@ -163,7 +173,22 @@ depends-member:
 - ["s23CustomStringConvertibleP", "stringValue"]
 - !private ["s23CustomStringConvertibleP", "utf8"]
 - !private ["10Foundation4DataV", "init"]
+- !private ["7ApiTest5DatesV", "CodingKeys"]
+- ["7ApiTest5DatesV", "Data"]
+- !private ["7ApiTest5DatesV", "Dates"]
+- !private ["7ApiTest5DatesV", "JSONDecoder"]
+- !private ["7ApiTest5DatesV", "JSONEncoder"]
+- ["7ApiTest5DatesV", "String"]
+- !private ["7ApiTest5DatesV", "URL"]
+- ["7ApiTest5DatesV", "deinit"]
+- ["7ApiTest5DatesV", "encode"]
+- ["7ApiTest5DatesV", "init"]
+- ["7ApiTest5DatesV", "json"]
+- ["7ApiTest5DatesV", "jsonData"]
+- ["7ApiTest5DatesV", "maximum"]
+- ["7ApiTest5DatesV", "minimum"]
 - !private ["Se", "Data"]
+- !private ["Se", "Dates"]
 - ["Se", "Encoding"]
 - !private ["Se", "JSONDecoder"]
 - !private ["Se", "JSONEncoder"]
@@ -177,12 +202,15 @@ depends-member:
 - !private ["Se", "adult"]
 - !private ["Se", "backdropPath"]
 - !private ["Se", "data"]
+- !private ["Se", "dates"]
 - ["Se", "encode"]
 - !private ["Se", "genreIDS"]
 - !private ["Se", "id"]
 - ["Se", "init"]
 - ["Se", "init"]
 - !private ["Se", "jsonData"]
+- !private ["Se", "maximum"]
+- !private ["Se", "minimum"]
 - !private ["Se", "originalLanguage"]
 - !private ["Se", "originalTitle"]
 - !private ["Se", "overview"]
@@ -199,6 +227,7 @@ depends-member:
 - !private ["Se", "voteCount"]
 - !private ["s7DecoderP", "container"]
 - !private ["SE", "Data"]
+- !private ["SE", "Dates"]
 - ["SE", "Encoding"]
 - !private ["SE", "JSONDecoder"]
 - !private ["SE", "JSONEncoder"]
@@ -212,12 +241,15 @@ depends-member:
 - !private ["SE", "adult"]
 - !private ["SE", "backdropPath"]
 - !private ["SE", "data"]
+- !private ["SE", "dates"]
 - ["SE", "encode"]
 - !private ["SE", "genreIDS"]
 - !private ["SE", "id"]
 - ["SE", "init"]
 - ["SE", "init"]
 - !private ["SE", "jsonData"]
+- !private ["SE", "maximum"]
+- !private ["SE", "minimum"]
 - !private ["SE", "originalLanguage"]
 - !private ["SE", "originalTitle"]
 - !private ["SE", "overview"]
@@ -287,9 +319,13 @@ depends-member:
 - !private ["10Foundation11JSONEncoderC", "encode"]
 - !private ["10Foundation11JSONEncoderC", "init"]
 - !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
 - !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
 - !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
 - !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
 - ["s25LosslessStringConvertibleP", "Encoding"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "data"]
@@ -302,6 +338,7 @@ depends-member:
 - ["7ApiTest9MovieListV", "CodingKey"]
 - ["7ApiTest9MovieListV", "CodingKeys"]
 - ["7ApiTest9MovieListV", "Data"]
+- ["7ApiTest9MovieListV", "Dates"]
 - ["7ApiTest9MovieListV", "Int"]
 - !private ["7ApiTest9MovieListV", "JSONDecoder"]
 - !private ["7ApiTest9MovieListV", "JSONEncoder"]
@@ -310,6 +347,7 @@ depends-member:
 - ["7ApiTest9MovieListV", "String"]
 - !private ["7ApiTest9MovieListV", "URL"]
 - !private ["7ApiTest9MovieListV", "_findStringSwitchCase"]
+- ["7ApiTest9MovieListV", "dates"]
 - ["7ApiTest9MovieListV", "deinit"]
 - ["7ApiTest9MovieListV", "encode"]
 - ["7ApiTest9MovieListV", "init"]
@@ -456,7 +494,11 @@ depends-nominal:
 - "7ApiTest6ResultV10CodingKeysO"
 - "7ApiTest9MovieListV10CodingKeysO"
 - "7ApiTest6ResultV10CodingKeysO"
+- "7ApiTest6ResultV10CodingKeysO"
 - "7ApiTest9MovieListV10CodingKeysO"
+- "7ApiTest6ResultV10CodingKeysO"
+- "7ApiTest9MovieListV10CodingKeysO"
+- "7ApiTest6ResultV10CodingKeysO"
 - "7ApiTest6ResultV10CodingKeysO"
 - "7ApiTest9MovieListV10CodingKeysO"
 - !private "7ApiTest6ResultV10CodingKeysO"
@@ -481,6 +523,7 @@ depends-nominal:
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - !private "10Foundation4DataV"
+- "7ApiTest5DatesV"
 - "Se"
 - !private "s7DecoderP"
 - "SE"
@@ -570,4 +613,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "b659745b9a5d75e5fc47c4a78b9f1791"
+interface-hash: "0b0b7037f3da08335924f1cd8c5c9bf9"

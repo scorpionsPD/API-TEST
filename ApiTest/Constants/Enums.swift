@@ -13,8 +13,14 @@ enum region:String {
     case bollyWood = "IN"
 }
 
-enum detailSection: Int {
+enum DetailSection: Int {
     case header = 0
     case videos
     case casting
+}
+
+
+enum languages: String {
+    case hindi = "hi"
+    case english = "en"
 }
